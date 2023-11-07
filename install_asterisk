@@ -5,12 +5,30 @@ apt-get install build-essential git autoconf wget subversion pkg-config libjanss
 contrib/scripts/get_mp3_source.sh
 contrib/scripts/install_prereq install
 ./configure
-make -j2
+make
 make install
 make samples
 make basic-pbx
 make config
 ldconfig
+
+sudo groupadd asterisk
+sudo useradd -r -d /var/lib/asterisk -g asterisk asterisk
+sudo usermod -aG audio,dialout asterisk
+sudo chown -R asterisk.asterisk /etc/asterisk
+sudo chown -R asterisk.asterisk /var/{lib,log,spool}/asterisk
+sudo chown -R asterisk.asterisk /usr/lib/asterisk
+sudo chmod -R 750 /var/{lib,log,run,spool}/asterisk /usr/lib/asterisk /etc/asterisk
+
+
+echo AST_USER="asterisk" >>  /etc/default/asterisk
+echo AST_GROUP="asterisk" >>  /etc/default/asterisk
+
+echo runuser=asterisk >> /etc/asterisk/asterisk.conf
+echo rungroup=asterisk >> /etc/asterisk/asterisk.conf
+
 systemctl start asterisk
 systemctl enable asterisk
 systemctl status asterisk
+
+ 
