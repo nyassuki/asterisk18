@@ -1,0 +1,4 @@
+<member name="test_stasis_channels" displayname="Stasis Channel Testing" remove_on_change="tests/test_stasis_channels.o tests/test_stasis_channels.i tests/test_stasis_channels.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

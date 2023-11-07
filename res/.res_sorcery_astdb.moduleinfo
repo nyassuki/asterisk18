@@ -1,0 +1,3 @@
+<member name="res_sorcery_astdb" displayname="Sorcery Astdb Object Wizard" remove_on_change="res/res_sorcery_astdb.o res/res_sorcery_astdb.i res/res_sorcery_astdb.so">
+	<support_level>core</support_level>
+</member>

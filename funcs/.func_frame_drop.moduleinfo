@@ -1,0 +1,3 @@
+<member name="func_frame_drop" displayname="Function to drop frames on a channel." remove_on_change="funcs/func_frame_drop.o funcs/func_frame_drop.i funcs/func_frame_drop.so">
+	<support_level>extended</support_level>
+</member>

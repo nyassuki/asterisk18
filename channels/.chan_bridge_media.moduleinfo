@@ -1,0 +1,3 @@
+<member name="chan_bridge_media" displayname="Bridge Media Channel Driver" remove_on_change="channels/chan_bridge_media.o channels/chan_bridge_media.i channels/chan_bridge_media.so">
+	<support_level>core</support_level>
+</member>

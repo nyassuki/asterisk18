@@ -1,0 +1,9 @@
+<member name="chan_sip" displayname="Session Initiation Protocol (SIP)" remove_on_change="channels/chan_sip.o channels/chan_sip.i channels/chan_sip.so channels/sip/config_parser.o channels/sip/dialplan_functions.o channels/sip/reqresp_parser.o channels/sip/route.o channels/sip/security_events.o channels/sip/utils.o channels/sip/config_parser.i channels/sip/dialplan_functions.i channels/sip/reqresp_parser.i channels/sip/route.i channels/sip/security_events.i channels/sip/utils.i">
+	<use type="module">res_crypto</use>
+	<use type="module">res_http_websocket</use>
+	<defaultenabled>no</defaultenabled>
+	<support_level>deprecated</support_level>
+	<replacement>chan_pjsip</replacement>
+	<deprecated_in>17</deprecated_in>
+	<removed_in>21</removed_in>
+</member>

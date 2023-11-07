@@ -1,0 +1,5 @@
+<member name="res_endpoint_stats" displayname="Endpoint statistics" remove_on_change="res/res_endpoint_stats.o res/res_endpoint_stats.i res/res_endpoint_stats.so">
+	<depend>res_statsd</depend>
+	<defaultenabled>no</defaultenabled>
+	<support_level>extended</support_level>
+</member>

@@ -1,0 +1,4 @@
+<member name="cel_beanstalkd" displayname="Beanstalkd CEL Backend" remove_on_change="cel/cel_beanstalkd.o cel/cel_beanstalkd.i cel/cel_beanstalkd.so">
+	<depend>beanstalk</depend>
+	<support_level>extended</support_level>
+</member>

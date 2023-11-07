@@ -1,0 +1,5 @@
+<member name="test_optional_api" displayname="ARI testing" remove_on_change="tests/test_optional_api.o tests/test_optional_api.i tests/test_optional_api.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>OPTIONAL_API</depend>
+	<support_level>core</support_level>
+</member>

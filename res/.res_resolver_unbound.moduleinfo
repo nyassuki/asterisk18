@@ -1,0 +1,4 @@
+<member name="res_resolver_unbound" displayname="Unbound DNS Resolver Support" remove_on_change="res/res_resolver_unbound.o res/res_resolver_unbound.i res/res_resolver_unbound.so">
+	<depend>unbound</depend>
+	<support_level>core</support_level>
+</member>

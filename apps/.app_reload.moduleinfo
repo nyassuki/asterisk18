@@ -1,0 +1,3 @@
+<member name="app_reload" displayname="Reload module(s)" remove_on_change="apps/app_reload.o apps/app_reload.i apps/app_reload.so">
+	<support_level>extended</support_level>
+</member>

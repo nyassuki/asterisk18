@@ -1,0 +1,7 @@
+<member name="res_ari_mailboxes" displayname="RESTful API module - Mailboxes resources" remove_on_change="res/res_ari_mailboxes.o res/res_ari_mailboxes.i res/res_ari_mailboxes.so res/ari/resource_mailboxes.o res/ari/resource_mailboxes.i">
+	<depend type="module">res_ari</depend>
+	<depend type="module">res_ari_model</depend>
+	<depend type="module">res_stasis</depend>
+	<depend type="module">res_stasis_mailbox</depend>
+	<support_level>core</support_level>
+</member>

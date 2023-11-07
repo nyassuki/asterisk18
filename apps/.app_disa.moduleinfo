@@ -1,0 +1,4 @@
+<member name="app_disa" displayname="DISA (Direct Inward System Access) Application" remove_on_change="apps/app_disa.o apps/app_disa.i apps/app_disa.so">
+	<use type="module">app_cdr</use>
+	<support_level>core</support_level>
+</member>

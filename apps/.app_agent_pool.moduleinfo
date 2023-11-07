@@ -1,0 +1,3 @@
+<member name="app_agent_pool" displayname="Call center agent pool applications" remove_on_change="apps/app_agent_pool.o apps/app_agent_pool.i apps/app_agent_pool.so">
+	<support_level>core</support_level>
+</member>

@@ -1,0 +1,3 @@
+<member name="codec_g722" displayname="ITU G.722-64kbps G722 Transcoder" remove_on_change="codecs/codec_g722.o codecs/codec_g722.i codecs/codec_g722.so codecs/g722/g722_encode.o codecs/g722/g722_decode.o codecs/g722/g722_encode.i codecs/g722/g722_decode.i">
+	<support_level>core</support_level>
+</member>

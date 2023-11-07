@@ -1,0 +1,4 @@
+<member name="res_mwi_external" displayname="Core external MWI resource" remove_on_change="res/res_mwi_external.o res/res_mwi_external.i res/res_mwi_external.so">
+	<defaultenabled>no</defaultenabled>
+	<support_level>core</support_level>
+</member>

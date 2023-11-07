@@ -1,0 +1,3 @@
+<member name="app_blind_transfer" displayname="Blind transfer channel to the given destination" remove_on_change="apps/app_blind_transfer.o apps/app_blind_transfer.i apps/app_blind_transfer.so">
+	<support_level>extended</support_level>
+</member>

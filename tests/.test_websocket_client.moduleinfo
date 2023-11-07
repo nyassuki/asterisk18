@@ -1,0 +1,5 @@
+<member name="test_websocket_client" displayname="Websocket client test module" remove_on_change="tests/test_websocket_client.o tests/test_websocket_client.i tests/test_websocket_client.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>res_http_websocket</depend>
+	<support_level>core</support_level>
+</member>

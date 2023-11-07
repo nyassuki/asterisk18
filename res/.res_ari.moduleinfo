@@ -1,0 +1,5 @@
+<member name="res_ari" displayname="Asterisk RESTful Interface" remove_on_change="res/res_ari.o res/res_ari.i res/res_ari.so res/ari/cli.o res/ari/config.o res/ari/ari_websockets.o res/ari/cli.i res/ari/config.i res/ari/ari_websockets.i">
+	<depend type="module">res_http_websocket</depend>
+	<depend type="module">res_stasis</depend>
+	<support_level>core</support_level>
+</member>

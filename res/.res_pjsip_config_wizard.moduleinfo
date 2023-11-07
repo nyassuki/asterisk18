@@ -1,0 +1,5 @@
+<member name="res_pjsip_config_wizard" displayname="PJSIP Config Wizard" remove_on_change="res/res_pjsip_config_wizard.o res/res_pjsip_config_wizard.i res/res_pjsip_config_wizard.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>

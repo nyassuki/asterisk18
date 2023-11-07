@@ -1,0 +1,48 @@
+<category name="MENUSELECT_CDR" displayname="Call Detail Recording">
+<member name="cdr_adaptive_odbc" displayname="Adaptive ODBC CDR backend" remove_on_change="cdr/cdr_adaptive_odbc.o cdr/cdr_adaptive_odbc.i cdr/cdr_adaptive_odbc.so">
+	<depend>res_odbc</depend>
+	<depend>generic_odbc</depend>
+	<support_level>core</support_level>
+</member>
+<member name="cdr_beanstalkd" displayname="Asterisk Beanstalkd CDR Backend" remove_on_change="cdr/cdr_beanstalkd.o cdr/cdr_beanstalkd.i cdr/cdr_beanstalkd.so">
+	<depend>beanstalk</depend>
+	<support_level>extended</support_level>
+</member>
+<member name="cdr_csv" displayname="Comma Separated Values CDR Backend" remove_on_change="cdr/cdr_csv.o cdr/cdr_csv.i cdr/cdr_csv.so">
+	<support_level>extended</support_level>
+</member>
+<member name="cdr_custom" displayname="Customizable Comma Separated Values CDR Backend" remove_on_change="cdr/cdr_custom.o cdr/cdr_custom.i cdr/cdr_custom.so">
+	<support_level>core</support_level>
+</member>
+<member name="cdr_manager" displayname="Asterisk Manager Interface CDR Backend" remove_on_change="cdr/cdr_manager.o cdr/cdr_manager.i cdr/cdr_manager.so">
+	<support_level>core</support_level>
+</member>
+<member name="cdr_odbc" displayname="ODBC CDR Backend" remove_on_change="cdr/cdr_odbc.o cdr/cdr_odbc.i cdr/cdr_odbc.so">
+	<depend>res_odbc</depend>
+	<depend>generic_odbc</depend>
+	<support_level>extended</support_level>
+</member>
+<member name="cdr_pgsql" displayname="PostgreSQL CDR Backend" remove_on_change="cdr/cdr_pgsql.o cdr/cdr_pgsql.i cdr/cdr_pgsql.so">
+	<depend>pgsql</depend>
+	<support_level>extended</support_level>
+</member>
+<member name="cdr_radius" displayname="RADIUS CDR Backend" remove_on_change="cdr/cdr_radius.o cdr/cdr_radius.i cdr/cdr_radius.so">
+	<depend>radius</depend>
+	<support_level>extended</support_level>
+</member>
+<member name="cdr_sqlite3_custom" displayname="SQLite3 Custom CDR Module" remove_on_change="cdr/cdr_sqlite3_custom.o cdr/cdr_sqlite3_custom.i cdr/cdr_sqlite3_custom.so">
+	<depend>sqlite3</depend>
+	<support_level>extended</support_level>
+</member>
+<member name="cdr_syslog" displayname="Customizable syslog CDR Backend" remove_on_change="cdr/cdr_syslog.o cdr/cdr_syslog.i cdr/cdr_syslog.so">
+	<depend>syslog</depend>
+	<defaultenabled>no</defaultenabled>
+	<support_level>deprecated</support_level>
+	<deprecated_in>16</deprecated_in>
+	<removed_in>19</removed_in>
+</member>
+<member name="cdr_tds" displayname="FreeTDS CDR Backend" remove_on_change="cdr/cdr_tds.o cdr/cdr_tds.i cdr/cdr_tds.so">
+	<depend>freetds</depend>
+	<support_level>extended</support_level>
+</member>
+</category>

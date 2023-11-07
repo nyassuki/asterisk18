@@ -1,0 +1,4 @@
+<member name="chan_rtp" displayname="RTP Media Channel" remove_on_change="channels/chan_rtp.o channels/chan_rtp.i channels/chan_rtp.so">
+	<depend>res_rtp_multicast</depend>
+	<support_level>core</support_level>
+</member>

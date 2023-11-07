@@ -1,0 +1,4 @@
+<member name="test_bridging" displayname="Bridging Unit Tests" remove_on_change="tests/test_bridging.o tests/test_bridging.i tests/test_bridging.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

@@ -1,0 +1,3 @@
+<member name="res_stasis" displayname="Stasis application support" remove_on_change="res/res_stasis.o res/res_stasis.i res/res_stasis.so res/stasis/app.o res/stasis/command.o res/stasis/control.o res/stasis/messaging.o res/stasis/stasis_bridge.o res/stasis/app.i res/stasis/command.i res/stasis/control.i res/stasis/messaging.i res/stasis/stasis_bridge.i">
+	<support_level>core</support_level>
+</member>

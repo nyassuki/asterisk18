@@ -1,0 +1,6 @@
+<member name="res_pjsip_transport_websocket" displayname="PJSIP WebSocket Transport Support" remove_on_change="res/res_pjsip_transport_websocket.o res/res_pjsip_transport_websocket.i res/res_pjsip_transport_websocket.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_http_websocket</depend>
+	<support_level>core</support_level>
+</member>

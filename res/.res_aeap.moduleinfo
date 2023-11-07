@@ -1,0 +1,4 @@
+<member name="res_aeap" displayname="AST_MODULE_INFO(ASTERISK_GPL_KEY, AST_MODFLAG_GLOBAL_SYMBOLS | AST_MODFLAG_LOAD_ORDER," remove_on_change="res/res_aeap.o res/res_aeap.i res/res_aeap.so res/res_aeap/aeap.o res/res_aeap/general.o res/res_aeap/message.o res/res_aeap/message_json.o res/res_aeap/transaction.o res/res_aeap/transport.o res/res_aeap/transport_websocket.o res/res_aeap/aeap.i res/res_aeap/general.i res/res_aeap/message.i res/res_aeap/message_json.i res/res_aeap/transaction.i res/res_aeap/transport.i res/res_aeap/transport_websocket.i">
+	<depend>res_http_websocket</depend>
+	<support_level>core</support_level>
+</member>

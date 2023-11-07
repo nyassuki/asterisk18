@@ -1,0 +1,3 @@
+<member name="res_mwi_devstate" displayname="MWI Device State Subscriptions" remove_on_change="res/res_mwi_devstate.o res/res_mwi_devstate.i res/res_mwi_devstate.so">
+	<support_level>core</support_level>
+</member>

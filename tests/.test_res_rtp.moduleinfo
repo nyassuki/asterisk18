@@ -1,0 +1,4 @@
+<member name="test_res_rtp" displayname="RTP/RTCP test module" remove_on_change="tests/test_res_rtp.o tests/test_res_rtp.i tests/test_res_rtp.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

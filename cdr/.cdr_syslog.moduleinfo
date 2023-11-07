@@ -1,0 +1,7 @@
+<member name="cdr_syslog" displayname="Customizable syslog CDR Backend" remove_on_change="cdr/cdr_syslog.o cdr/cdr_syslog.i cdr/cdr_syslog.so">
+	<depend>syslog</depend>
+	<defaultenabled>no</defaultenabled>
+	<support_level>deprecated</support_level>
+	<deprecated_in>16</deprecated_in>
+	<removed_in>19</removed_in>
+</member>

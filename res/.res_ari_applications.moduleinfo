@@ -1,0 +1,6 @@
+<member name="res_ari_applications" displayname="RESTful API module - Stasis application resources" remove_on_change="res/res_ari_applications.o res/res_ari_applications.i res/res_ari_applications.so res/ari/resource_applications.o res/ari/resource_applications.i">
+	<depend type="module">res_ari</depend>
+	<depend type="module">res_ari_model</depend>
+	<depend type="module">res_stasis</depend>
+	<support_level>core</support_level>
+</member>

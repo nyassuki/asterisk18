@@ -1,0 +1,3 @@
+<member name="bridge_native_rtp" displayname="Native RTP bridging module" remove_on_change="bridges/bridge_native_rtp.o bridges/bridge_native_rtp.i bridges/bridge_native_rtp.so">
+	<support_level>core</support_level>
+</member>

@@ -1,0 +1,3 @@
+<member name="app_bridgeaddchan" displayname="Bridge Add Channel Application" remove_on_change="apps/app_bridgeaddchan.o apps/app_bridgeaddchan.i apps/app_bridgeaddchan.so">
+	<support_level>core</support_level>
+</member>

@@ -1,0 +1,6 @@
+<member name="test_http_media_cache" displayname="HTTP Media Cache Backend Tests" remove_on_change="tests/test_http_media_cache.o tests/test_http_media_cache.i tests/test_http_media_cache.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>curl</depend>
+	<depend>res_http_media_cache</depend>
+	<support_level>core</support_level>
+</member>

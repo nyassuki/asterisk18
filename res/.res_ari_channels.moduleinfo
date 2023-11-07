@@ -1,0 +1,10 @@
+<member name="res_ari_channels" displayname="RESTful API module - Channel resources" remove_on_change="res/res_ari_channels.o res/res_ari_channels.i res/res_ari_channels.so res/ari/resource_channels.o res/ari/resource_channels.i">
+	<depend type="module">res_ari</depend>
+	<depend type="module">res_ari_model</depend>
+	<depend type="module">res_stasis</depend>
+	<depend type="module">res_stasis_answer</depend>
+	<depend type="module">res_stasis_playback</depend>
+	<depend type="module">res_stasis_recording</depend>
+	<depend type="module">res_stasis_snoop</depend>
+	<support_level>core</support_level>
+</member>

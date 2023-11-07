@@ -1,0 +1,6 @@
+<member name="res_prometheus" displayname="Asterisk Prometheus Module" remove_on_change="res/res_prometheus.o res/res_prometheus.i res/res_prometheus.so res/prometheus/bridges.o res/prometheus/channels.o res/prometheus/cli.o res/prometheus/endpoints.o res/prometheus/pjsip_outbound_registrations.o res/prometheus/bridges.i res/prometheus/channels.i res/prometheus/cli.i res/prometheus/endpoints.i res/prometheus/pjsip_outbound_registrations.i">
+	<use>pjproject</use>
+	<use type="module">res_pjsip</use>
+	<use type="module">res_pjsip_outbound_registration</use>
+	<support_level>extended</support_level>
+</member>

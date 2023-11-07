@@ -1,0 +1,3 @@
+<member name="res_tonedetect" displayname="Tone detection module" remove_on_change="res/res_tonedetect.o res/res_tonedetect.i res/res_tonedetect.so">
+	<support_level>extended</support_level>
+</member>

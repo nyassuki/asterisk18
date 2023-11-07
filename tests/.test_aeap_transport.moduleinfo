@@ -1,0 +1,5 @@
+<member name="test_aeap_transport" displayname="Asterisk External Application Protocol Transport Tests" remove_on_change="tests/test_aeap_transport.o tests/test_aeap_transport.i tests/test_aeap_transport.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>res_aeap</depend>
+	<support_level>core</support_level>
+</member>

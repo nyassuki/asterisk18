@@ -1,0 +1,3 @@
+<member name="res_manager_presencestate" displayname="Manager Presence State Topic Forwarder" remove_on_change="res/res_manager_presencestate.o res/res_manager_presencestate.i res/res_manager_presencestate.so">
+	<support_level>core</support_level>
+</member>

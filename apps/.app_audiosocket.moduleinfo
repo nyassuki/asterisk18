@@ -1,0 +1,4 @@
+<member name="app_audiosocket" displayname="AST_MODULE_INFO(" remove_on_change="apps/app_audiosocket.o apps/app_audiosocket.i apps/app_audiosocket.so">
+	<depend>res_audiosocket</depend>
+	<support_level>extended</support_level>
+</member>

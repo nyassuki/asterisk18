@@ -1,0 +1,5 @@
+<member name="func_pjsip_contact" displayname="Get information about a PJSIP contact" remove_on_change="funcs/func_pjsip_contact.o funcs/func_pjsip_contact.i funcs/func_pjsip_contact.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>

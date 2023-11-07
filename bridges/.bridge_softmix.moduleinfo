@@ -1,0 +1,3 @@
+<member name="bridge_softmix" displayname="Multi-party software based channel mixing" remove_on_change="bridges/bridge_softmix.o bridges/bridge_softmix.i bridges/bridge_softmix.so bridges/bridge_softmix/bridge_softmix_binaural.o bridges/bridge_softmix/bridge_softmix_binaural.i">
+	<support_level>core</support_level>
+</member>

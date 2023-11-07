@@ -1,0 +1,3 @@
+<member name="app_attended_transfer" displayname="Attended transfer to the given extension" remove_on_change="apps/app_attended_transfer.o apps/app_attended_transfer.i apps/app_attended_transfer.so">
+	<support_level>extended</support_level>
+</member>

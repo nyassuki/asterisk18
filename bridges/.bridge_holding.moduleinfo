@@ -1,0 +1,3 @@
+<member name="bridge_holding" displayname="Holding bridge module" remove_on_change="bridges/bridge_holding.o bridges/bridge_holding.i bridges/bridge_holding.so">
+	<support_level>core</support_level>
+</member>

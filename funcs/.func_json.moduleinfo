@@ -1,0 +1,3 @@
+<member name="func_json" displayname="JSON decoding function" remove_on_change="funcs/func_json.o funcs/func_json.i funcs/func_json.so">
+	<support_level>extended</support_level>
+</member>

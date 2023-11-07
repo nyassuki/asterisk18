@@ -1,0 +1,5 @@
+<member name="func_pjsip_aor" displayname="Get information about a PJSIP AOR" remove_on_change="funcs/func_pjsip_aor.o funcs/func_pjsip_aor.i funcs/func_pjsip_aor.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>

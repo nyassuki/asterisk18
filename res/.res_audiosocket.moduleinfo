@@ -1,0 +1,3 @@
+<member name="res_audiosocket" displayname="AudioSocket support" remove_on_change="res/res_audiosocket.o res/res_audiosocket.i res/res_audiosocket.so">
+	<support_level>extended</support_level>
+</member>

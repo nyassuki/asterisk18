@@ -1,0 +1,4 @@
+<member name="test_cdr" displayname="CDR unit tests" remove_on_change="tests/test_cdr.o tests/test_cdr.i tests/test_cdr.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

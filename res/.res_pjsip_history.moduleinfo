@@ -1,0 +1,5 @@
+<member name="res_pjsip_history" displayname="PJSIP History" remove_on_change="res/res_pjsip_history.o res/res_pjsip_history.i res/res_pjsip_history.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>extended</support_level>
+</member>

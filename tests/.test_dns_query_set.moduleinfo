@@ -1,0 +1,4 @@
+<member name="test_dns_query_set" displayname="DNS query set tests" remove_on_change="tests/test_dns_query_set.o tests/test_dns_query_set.i tests/test_dns_query_set.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

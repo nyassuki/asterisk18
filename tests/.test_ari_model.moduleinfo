@@ -1,0 +1,5 @@
+<member name="test_ari_model" displayname="Skeleton (sample) Test" remove_on_change="tests/test_ari_model.o tests/test_ari_model.i tests/test_ari_model.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>res_ari_model</depend>
+	<support_level>core</support_level>
+</member>

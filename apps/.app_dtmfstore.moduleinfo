@@ -1,0 +1,3 @@
+<member name="app_dtmfstore" displayname="Technology independent async DTMF storage" remove_on_change="apps/app_dtmfstore.o apps/app_dtmfstore.i apps/app_dtmfstore.so">
+	<support_level>extended</support_level>
+</member>

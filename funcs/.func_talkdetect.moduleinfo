@@ -1,0 +1,3 @@
+<member name="func_talkdetect" displayname="Talk detection dialplan function" remove_on_change="funcs/func_talkdetect.o funcs/func_talkdetect.i funcs/func_talkdetect.so">
+	<support_level>core</support_level>
+</member>

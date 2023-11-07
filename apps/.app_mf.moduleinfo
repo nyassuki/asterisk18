@@ -1,0 +1,3 @@
+<member name="app_mf" displayname="MF Sender and Receiver Applications" remove_on_change="apps/app_mf.o apps/app_mf.i apps/app_mf.so">
+	<support_level>extended</support_level>
+</member>

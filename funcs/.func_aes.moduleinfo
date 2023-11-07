@@ -1,0 +1,5 @@
+<member name="func_aes" displayname="AES dialplan functions" remove_on_change="funcs/func_aes.o funcs/func_aes.i funcs/func_aes.so">
+	<depend>res_crypto</depend>
+	<depend>crypto</depend>
+	<support_level>core</support_level>
+</member>

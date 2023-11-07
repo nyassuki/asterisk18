@@ -1,0 +1,5 @@
+<member name="test_aeap_transaction" displayname="Asterisk External Application Protocol Transaction Tests" remove_on_change="tests/test_aeap_transaction.o tests/test_aeap_transaction.i tests/test_aeap_transaction.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>res_aeap</depend>
+	<support_level>core</support_level>
+</member>

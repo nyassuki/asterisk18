@@ -1,0 +1,7 @@
+<member name="func_periodic_hook" displayname="Periodic dialplan hooks." remove_on_change="funcs/func_periodic_hook.o funcs/func_periodic_hook.i funcs/func_periodic_hook.so">
+	<depend>app_chanspy</depend>
+	<depend>func_cut</depend>
+	<depend>func_groupcount</depend>
+	<depend>func_uri</depend>
+	<support_level>core</support_level>
+</member>

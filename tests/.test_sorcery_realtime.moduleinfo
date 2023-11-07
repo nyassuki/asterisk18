@@ -1,0 +1,4 @@
+<member name="test_sorcery_realtime" displayname="Sorcery Realtime Wizard test module" remove_on_change="tests/test_sorcery_realtime.o tests/test_sorcery_realtime.i tests/test_sorcery_realtime.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

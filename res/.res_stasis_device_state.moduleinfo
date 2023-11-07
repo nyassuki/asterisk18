@@ -1,0 +1,4 @@
+<member name="res_stasis_device_state" displayname="Stasis application device state support" remove_on_change="res/res_stasis_device_state.o res/res_stasis_device_state.i res/res_stasis_device_state.so">
+	<depend type="module">res_stasis</depend>
+	<support_level>core</support_level>
+</member>

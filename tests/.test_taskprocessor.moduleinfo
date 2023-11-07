@@ -1,0 +1,4 @@
+<member name="test_taskprocessor" displayname="taskprocessor test module" remove_on_change="tests/test_taskprocessor.o tests/test_taskprocessor.i tests/test_taskprocessor.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

@@ -1,0 +1,5 @@
+<member name="res_pjsip_acl" displayname="PJSIP ACL Resource" remove_on_change="res/res_pjsip_acl.o res/res_pjsip_acl.i res/res_pjsip_acl.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>

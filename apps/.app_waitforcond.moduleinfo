@@ -1,0 +1,3 @@
+<member name="app_waitforcond" displayname="Wait until condition is true" remove_on_change="apps/app_waitforcond.o apps/app_waitforcond.i apps/app_waitforcond.so">
+	<support_level>extended</support_level>
+</member>

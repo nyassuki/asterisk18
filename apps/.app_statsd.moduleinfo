@@ -1,0 +1,5 @@
+<member name="app_statsd" displayname="StatsD Dialplan Application" remove_on_change="apps/app_statsd.o apps/app_statsd.i apps/app_statsd.so">
+	<depend>res_statsd</depend>
+	<defaultenabled>no</defaultenabled>
+	<support_level>extended</support_level>
+</member>

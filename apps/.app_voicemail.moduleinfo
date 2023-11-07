@@ -1,0 +1,6 @@
+<member name="app_voicemail" displayname="Comedian Mail (Voicemail System)" remove_on_change="apps/.o apps/.so">
+<support_level>core</support_level>
+<defaultenabled>yes</defaultenabled>
+<use type="module">res_adsi</use>
+<use type="module">res_smdi</use>
+</member>

@@ -1,0 +1,7 @@
+<member name="res_ari_device_states" displayname="RESTful API module - Device state resources" remove_on_change="res/res_ari_device_states.o res/res_ari_device_states.i res/res_ari_device_states.so res/ari/resource_device_states.o res/ari/resource_device_states.i">
+	<depend type="module">res_ari</depend>
+	<depend type="module">res_ari_model</depend>
+	<depend type="module">res_stasis</depend>
+	<depend type="module">res_stasis_device_state</depend>
+	<support_level>core</support_level>
+</member>

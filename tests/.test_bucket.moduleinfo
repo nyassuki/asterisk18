@@ -1,0 +1,4 @@
+<member name="test_bucket" displayname="Bucket test module" remove_on_change="tests/test_bucket.o tests/test_bucket.i tests/test_bucket.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

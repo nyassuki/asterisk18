@@ -1,0 +1,4 @@
+<member name="test_format_cache" displayname="Format cache API test module" remove_on_change="tests/test_format_cache.o tests/test_format_cache.i tests/test_format_cache.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

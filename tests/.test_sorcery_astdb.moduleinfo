@@ -1,0 +1,4 @@
+<member name="test_sorcery_astdb" displayname="Sorcery astdb Wizard test module" remove_on_change="tests/test_sorcery_astdb.o tests/test_sorcery_astdb.i tests/test_sorcery_astdb.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

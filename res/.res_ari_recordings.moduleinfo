@@ -1,0 +1,7 @@
+<member name="res_ari_recordings" displayname="RESTful API module - Recording resources" remove_on_change="res/res_ari_recordings.o res/res_ari_recordings.i res/res_ari_recordings.so res/ari/resource_recordings.o res/ari/resource_recordings.i">
+	<depend type="module">res_ari</depend>
+	<depend type="module">res_ari_model</depend>
+	<depend type="module">res_stasis</depend>
+	<depend type="module">res_stasis_recording</depend>
+	<support_level>core</support_level>
+</member>

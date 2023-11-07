@@ -1,0 +1,6 @@
+<member name="test_res_prometheus" displayname="Prometheus Core Unit Tests" remove_on_change="tests/test_res_prometheus.o tests/test_res_prometheus.i tests/test_res_prometheus.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>res_prometheus</depend>
+	<depend>curl</depend>
+	<support_level>extended</support_level>
+</member>

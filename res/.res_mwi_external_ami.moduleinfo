@@ -1,0 +1,4 @@
+<member name="res_mwi_external_ami" displayname="AMI support for external MWI" remove_on_change="res/res_mwi_external_ami.o res/res_mwi_external_ami.i res/res_mwi_external_ami.so">
+	<depend>res_mwi_external</depend>
+	<support_level>core</support_level>
+</member>

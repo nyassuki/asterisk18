@@ -1,0 +1,4 @@
+<member name="res_stasis_test" displayname="Stasis test utilities" remove_on_change="res/res_stasis_test.o res/res_stasis_test.i res/res_stasis_test.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

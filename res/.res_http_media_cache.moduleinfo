@@ -1,0 +1,5 @@
+<member name="res_http_media_cache" displayname="HTTP Media Cache Backend" remove_on_change="res/res_http_media_cache.o res/res_http_media_cache.i res/res_http_media_cache.so">
+	<depend>curl</depend>
+	<depend>res_curl</depend>
+	<support_level>core</support_level>
+</member>

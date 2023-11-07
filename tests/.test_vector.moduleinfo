@@ -1,0 +1,4 @@
+<member name="test_vector" displayname="Vector test module" remove_on_change="tests/test_vector.o tests/test_vector.i tests/test_vector.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

@@ -1,0 +1,4 @@
+<member name="test_core_format" displayname="Core format API test module" remove_on_change="tests/test_core_format.o tests/test_core_format.i tests/test_core_format.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

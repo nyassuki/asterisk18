@@ -1,0 +1,6 @@
+<member name="chan_phone" displayname="Linux Telephony API Support" remove_on_change="channels/chan_phone.o channels/chan_phone.i channels/chan_phone.so">
+	<depend>ixjuser</depend>
+	<support_level>deprecated</support_level>
+	<deprecated_in>16</deprecated_in>
+	<removed_in>19</removed_in>
+</member>

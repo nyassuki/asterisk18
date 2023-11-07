@@ -1,0 +1,4 @@
+<member name="test_dns_recurring" displayname="Recurring DNS query tests" remove_on_change="tests/test_dns_recurring.o tests/test_dns_recurring.i tests/test_dns_recurring.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

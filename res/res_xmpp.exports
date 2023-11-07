@@ -1,0 +1,17 @@
+{
+	global:
+		ast_xmpp_client_find;
+		ast_xmpp_client_disconnect;
+		ast_xmpp_client_unref;
+		ast_xmpp_client_lock;
+		ast_xmpp_client_unlock;
+		ast_xmpp_client_send;
+		ast_xmpp_client_send_message;
+		ast_xmpp_chatroom_invite;
+		ast_xmpp_chatroom_join;
+		ast_xmpp_chatroom_send;
+		ast_xmpp_chatroom_leave;
+		ast_xmpp_increment_mid;
+	local:
+		*;
+};

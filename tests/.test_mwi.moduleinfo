@@ -1,0 +1,4 @@
+<member name="test_mwi" displayname="MWI testing" remove_on_change="tests/test_mwi.o tests/test_mwi.i tests/test_mwi.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

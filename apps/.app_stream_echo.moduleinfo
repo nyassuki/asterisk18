@@ -1,0 +1,3 @@
+<member name="app_stream_echo" displayname="Stream Echo Application" remove_on_change="apps/app_stream_echo.o apps/app_stream_echo.i apps/app_stream_echo.so">
+	<support_level>core</support_level>
+</member>

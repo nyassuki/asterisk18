@@ -1,0 +1,4 @@
+<member name="test_scoped_lock" displayname="SCOPED_LOCK test module" remove_on_change="tests/test_scoped_lock.o tests/test_scoped_lock.i tests/test_scoped_lock.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

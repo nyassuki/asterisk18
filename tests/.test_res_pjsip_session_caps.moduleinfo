@@ -1,0 +1,7 @@
+<member name="test_res_pjsip_session_caps" displayname="res_pjsip_session caps test module" remove_on_change="tests/test_res_pjsip_session_caps.o tests/test_res_pjsip_session_caps.i tests/test_res_pjsip_session_caps.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_session</depend>
+	<support_level>core</support_level>
+</member>

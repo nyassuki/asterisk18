@@ -1,0 +1,9 @@
+<member name="res_pjsip" displayname="Basic SIP resource" remove_on_change="res/res_pjsip.o res/res_pjsip.i res/res_pjsip.so res/res_pjsip/config_auth.o res/res_pjsip/config_domain_aliases.o res/res_pjsip/config_global.o res/res_pjsip/config_system.o res/res_pjsip/config_transport.o res/res_pjsip/location.o res/res_pjsip/pjsip_cli.o res/res_pjsip/pjsip_configuration.o res/res_pjsip/pjsip_distributor.o res/res_pjsip/pjsip_global_headers.o res/res_pjsip/pjsip_message_filter.o res/res_pjsip/pjsip_options.o res/res_pjsip/pjsip_resolver.o res/res_pjsip/pjsip_scheduler.o res/res_pjsip/pjsip_session.o res/res_pjsip/pjsip_transport_events.o res/res_pjsip/pjsip_transport_management.o res/res_pjsip/presence_xml.o res/res_pjsip/security_events.o res/res_pjsip/config_auth.i res/res_pjsip/config_domain_aliases.i res/res_pjsip/config_global.i res/res_pjsip/config_system.i res/res_pjsip/config_transport.i res/res_pjsip/location.i res/res_pjsip/pjsip_cli.i res/res_pjsip/pjsip_configuration.i res/res_pjsip/pjsip_distributor.i res/res_pjsip/pjsip_global_headers.i res/res_pjsip/pjsip_message_filter.i res/res_pjsip/pjsip_options.i res/res_pjsip/pjsip_resolver.i res/res_pjsip/pjsip_scheduler.i res/res_pjsip/pjsip_session.i res/res_pjsip/pjsip_transport_events.i res/res_pjsip/pjsip_transport_management.i res/res_pjsip/presence_xml.i res/res_pjsip/security_events.i">
+	<depend>pjproject</depend>
+	<depend>res_pjproject</depend>
+	<depend>res_sorcery_config</depend>
+	<depend>res_sorcery_memory</depend>
+	<depend>res_sorcery_astdb</depend>
+	<use type="module">res_statsd</use>
+	<support_level>core</support_level>
+</member>

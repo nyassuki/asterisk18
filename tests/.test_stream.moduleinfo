@@ -1,0 +1,4 @@
+<member name="test_stream" displayname="Media Stream API test module" remove_on_change="tests/test_stream.o tests/test_stream.i tests/test_stream.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

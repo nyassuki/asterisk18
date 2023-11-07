@@ -1,0 +1,6 @@
+<member name="res_pjsip_send_to_voicemail" displayname="PJSIP REFER Send to Voicemail Support" remove_on_change="res/res_pjsip_send_to_voicemail.o res/res_pjsip_send_to_voicemail.i res/res_pjsip_send_to_voicemail.so">
+	 <depend>pjproject</depend>
+	 <depend>res_pjsip</depend>
+	 <depend>res_pjsip_session</depend>
+	 <support_level>core</support_level>
+</member>

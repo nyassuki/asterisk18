@@ -1,0 +1,4 @@
+<member name="test_cel" displayname="CEL unit tests" remove_on_change="tests/test_cel.o tests/test_cel.i tests/test_cel.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

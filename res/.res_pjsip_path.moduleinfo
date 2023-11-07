@@ -1,0 +1,6 @@
+<member name="res_pjsip_path" displayname="PJSIP Path Header Support" remove_on_change="res/res_pjsip_path.o res/res_pjsip_path.i res/res_pjsip_path.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_session</depend>
+	<support_level>core</support_level>
+</member>

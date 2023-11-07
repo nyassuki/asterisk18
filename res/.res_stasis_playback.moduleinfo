@@ -1,0 +1,5 @@
+<member name="res_stasis_playback" displayname="Stasis application playback support" remove_on_change="res/res_stasis_playback.o res/res_stasis_playback.i res/res_stasis_playback.so">
+	<depend type="module">res_stasis</depend>
+	<depend type="module">res_stasis_recording</depend>
+	<support_level>core</support_level>
+</member>

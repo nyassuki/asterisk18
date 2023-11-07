@@ -1,0 +1,3 @@
+<member name="func_scramble" displayname="Frequency inverting voice scrambler" remove_on_change="funcs/func_scramble.o funcs/func_scramble.i funcs/func_scramble.so">
+	<support_level>extended</support_level>
+</member>

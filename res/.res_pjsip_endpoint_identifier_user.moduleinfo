@@ -1,0 +1,5 @@
+<member name="res_pjsip_endpoint_identifier_user" displayname="PJSIP username endpoint identifier" remove_on_change="res/res_pjsip_endpoint_identifier_user.o res/res_pjsip_endpoint_identifier_user.i res/res_pjsip_endpoint_identifier_user.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>

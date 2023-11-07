@@ -1,0 +1,4 @@
+<member name="test_data_buffer" displayname="Data buffer API test module" remove_on_change="tests/test_data_buffer.o tests/test_data_buffer.i tests/test_data_buffer.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

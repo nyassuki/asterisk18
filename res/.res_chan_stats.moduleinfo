@@ -1,0 +1,5 @@
+<member name="res_chan_stats" displayname="Example of how to use Stasis" remove_on_change="res/res_chan_stats.o res/res_chan_stats.i res/res_chan_stats.so">
+	<depend>res_statsd</depend>
+	<defaultenabled>no</defaultenabled>
+	<support_level>extended</support_level>
+</member>

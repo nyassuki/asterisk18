@@ -1,0 +1,4 @@
+<member name="test_format_cap" displayname="Format capabilities API test module" remove_on_change="tests/test_format_cap.o tests/test_format_cap.i tests/test_format_cap.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

@@ -1,0 +1,4 @@
+<member name="test_dns" displayname="DNS API Tests" remove_on_change="tests/test_dns.o tests/test_dns.i tests/test_dns.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

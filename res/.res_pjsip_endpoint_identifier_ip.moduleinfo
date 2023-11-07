@@ -1,0 +1,5 @@
+<member name="res_pjsip_endpoint_identifier_ip" displayname="PJSIP IP endpoint identifier" remove_on_change="res/res_pjsip_endpoint_identifier_ip.o res/res_pjsip_endpoint_identifier_ip.i res/res_pjsip_endpoint_identifier_ip.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>

@@ -1,0 +1,4 @@
+<member name="test_astobj2_weaken" displayname="ASTOBJ2 Weak Reference Unit Tests" remove_on_change="tests/test_astobj2_weaken.o tests/test_astobj2_weaken.i tests/test_astobj2_weaken.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

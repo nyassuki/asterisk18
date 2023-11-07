@@ -1,0 +1,722 @@
+<category name="MENUSELECT_RES" displayname="Resource Modules">
+<member name="res_adsi" displayname="ADSI Resource" remove_on_change="res/res_adsi.o res/res_adsi.i res/res_adsi.so">
+	<support_level>deprecated</support_level>
+</member>
+<member name="res_aeap" displayname="AST_MODULE_INFO(ASTERISK_GPL_KEY, AST_MODFLAG_GLOBAL_SYMBOLS | AST_MODFLAG_LOAD_ORDER," remove_on_change="res/res_aeap.o res/res_aeap.i res/res_aeap.so res/res_aeap/aeap.o res/res_aeap/general.o res/res_aeap/message.o res/res_aeap/message_json.o res/res_aeap/transaction.o res/res_aeap/transport.o res/res_aeap/transport_websocket.o res/res_aeap/aeap.i res/res_aeap/general.i res/res_aeap/message.i res/res_aeap/message_json.i res/res_aeap/transaction.i res/res_aeap/transport.i res/res_aeap/transport_websocket.i">
+	<depend>res_http_websocket</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_ael_share" displayname="share-able code for AEL" remove_on_change="res/res_ael_share.o res/res_ael_share.i res/res_ael_share.so res/ael/ael_lex.o res/ael/ael.tab.o res/ael/pval.o res/ael/ael_lex.i res/ael/ael.tab.i res/ael/pval.i">
+	<support_level>extended</support_level>
+</member>
+<member name="res_agi" displayname="Asterisk Gateway Interface (AGI)" remove_on_change="res/res_agi.o res/res_agi.i res/res_agi.so">
+	<depend>res_speech</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_ari" displayname="Asterisk RESTful Interface" remove_on_change="res/res_ari.o res/res_ari.i res/res_ari.so res/ari/cli.o res/ari/config.o res/ari/ari_websockets.o res/ari/cli.i res/ari/config.i res/ari/ari_websockets.i">
+	<depend type="module">res_http_websocket</depend>
+	<depend type="module">res_stasis</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_ari_applications" displayname="RESTful API module - Stasis application resources" remove_on_change="res/res_ari_applications.o res/res_ari_applications.i res/res_ari_applications.so res/ari/resource_applications.o res/ari/resource_applications.i">
+	<depend type="module">res_ari</depend>
+	<depend type="module">res_ari_model</depend>
+	<depend type="module">res_stasis</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_ari_asterisk" displayname="RESTful API module - Asterisk resources" remove_on_change="res/res_ari_asterisk.o res/res_ari_asterisk.i res/res_ari_asterisk.so res/ari/resource_asterisk.o res/ari/resource_asterisk.i">
+	<depend type="module">res_ari</depend>
+	<depend type="module">res_ari_model</depend>
+	<depend type="module">res_stasis</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_ari_bridges" displayname="RESTful API module - Bridge resources" remove_on_change="res/res_ari_bridges.o res/res_ari_bridges.i res/res_ari_bridges.so res/ari/resource_bridges.o res/ari/resource_bridges.i">
+	<depend type="module">res_ari</depend>
+	<depend type="module">res_ari_model</depend>
+	<depend type="module">res_stasis</depend>
+	<depend type="module">res_stasis_recording</depend>
+	<depend type="module">res_stasis_playback</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_ari_channels" displayname="RESTful API module - Channel resources" remove_on_change="res/res_ari_channels.o res/res_ari_channels.i res/res_ari_channels.so res/ari/resource_channels.o res/ari/resource_channels.i">
+	<depend type="module">res_ari</depend>
+	<depend type="module">res_ari_model</depend>
+	<depend type="module">res_stasis</depend>
+	<depend type="module">res_stasis_answer</depend>
+	<depend type="module">res_stasis_playback</depend>
+	<depend type="module">res_stasis_recording</depend>
+	<depend type="module">res_stasis_snoop</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_ari_device_states" displayname="RESTful API module - Device state resources" remove_on_change="res/res_ari_device_states.o res/res_ari_device_states.i res/res_ari_device_states.so res/ari/resource_device_states.o res/ari/resource_device_states.i">
+	<depend type="module">res_ari</depend>
+	<depend type="module">res_ari_model</depend>
+	<depend type="module">res_stasis</depend>
+	<depend type="module">res_stasis_device_state</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_ari_endpoints" displayname="RESTful API module - Endpoint resources" remove_on_change="res/res_ari_endpoints.o res/res_ari_endpoints.i res/res_ari_endpoints.so res/ari/resource_endpoints.o res/ari/resource_endpoints.i">
+	<depend type="module">res_ari</depend>
+	<depend type="module">res_ari_model</depend>
+	<depend type="module">res_stasis</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_ari_events" displayname="RESTful API module - WebSocket resource" remove_on_change="res/res_ari_events.o res/res_ari_events.i res/res_ari_events.so res/ari/resource_events.o res/ari/resource_events.i">
+	<depend type="module">res_ari</depend>
+	<depend type="module">res_ari_model</depend>
+	<depend type="module">res_stasis</depend>
+	<depend type="module">res_http_websocket</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_ari_mailboxes" displayname="RESTful API module - Mailboxes resources" remove_on_change="res/res_ari_mailboxes.o res/res_ari_mailboxes.i res/res_ari_mailboxes.so res/ari/resource_mailboxes.o res/ari/resource_mailboxes.i">
+	<depend type="module">res_ari</depend>
+	<depend type="module">res_ari_model</depend>
+	<depend type="module">res_stasis</depend>
+	<depend type="module">res_stasis_mailbox</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_ari_model" displayname="ARI Model validators" remove_on_change="res/res_ari_model.o res/res_ari_model.i res/res_ari_model.so res/ari/ari_model_validators.o res/ari/ari_model_validators.i">
+	<support_level>core</support_level>
+</member>
+<member name="res_ari_playbacks" displayname="RESTful API module - Playback control resources" remove_on_change="res/res_ari_playbacks.o res/res_ari_playbacks.i res/res_ari_playbacks.so res/ari/resource_playbacks.o res/ari/resource_playbacks.i">
+	<depend type="module">res_ari</depend>
+	<depend type="module">res_ari_model</depend>
+	<depend type="module">res_stasis</depend>
+	<depend type="module">res_stasis_playback</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_ari_recordings" displayname="RESTful API module - Recording resources" remove_on_change="res/res_ari_recordings.o res/res_ari_recordings.i res/res_ari_recordings.so res/ari/resource_recordings.o res/ari/resource_recordings.i">
+	<depend type="module">res_ari</depend>
+	<depend type="module">res_ari_model</depend>
+	<depend type="module">res_stasis</depend>
+	<depend type="module">res_stasis_recording</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_ari_sounds" displayname="RESTful API module - Sound resources" remove_on_change="res/res_ari_sounds.o res/res_ari_sounds.i res/res_ari_sounds.so res/ari/resource_sounds.o res/ari/resource_sounds.i">
+	<depend type="module">res_ari</depend>
+	<depend type="module">res_ari_model</depend>
+	<depend type="module">res_stasis</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_audiosocket" displayname="AudioSocket support" remove_on_change="res/res_audiosocket.o res/res_audiosocket.i res/res_audiosocket.so">
+	<support_level>extended</support_level>
+</member>
+<member name="res_calendar" displayname="Asterisk Calendar integration" remove_on_change="res/res_calendar.o res/res_calendar.i res/res_calendar.so">
+	<support_level>extended</support_level>
+</member>
+<member name="res_calendar_caldav" displayname="Asterisk CalDAV Calendar Integration" remove_on_change="res/res_calendar_caldav.o res/res_calendar_caldav.i res/res_calendar_caldav.so">
+	<depend>res_calendar</depend>
+	<depend>neon</depend>
+	<depend>ical</depend>
+	<depend>libxml2</depend>
+	<support_level>extended</support_level>
+</member>
+<member name="res_calendar_ews" displayname="Asterisk MS Exchange Web Service Calendar Integration" remove_on_change="res/res_calendar_ews.o res/res_calendar_ews.i res/res_calendar_ews.so">
+	<depend>res_calendar</depend>
+	<depend>neon29</depend>
+	<support_level>extended</support_level>
+</member>
+<member name="res_calendar_exchange" displayname="Asterisk MS Exchange Calendar Integration" remove_on_change="res/res_calendar_exchange.o res/res_calendar_exchange.i res/res_calendar_exchange.so">
+	<depend>res_calendar</depend>
+	<depend>neon</depend>
+	<depend>ical</depend>
+	<depend>iksemel</depend>
+	<support_level>extended</support_level>
+</member>
+<member name="res_calendar_icalendar" displayname="Asterisk iCalendar .ics file integration" remove_on_change="res/res_calendar_icalendar.o res/res_calendar_icalendar.i res/res_calendar_icalendar.so">
+	<depend>res_calendar</depend>
+	<depend>neon</depend>
+	<depend>ical</depend>
+	<support_level>extended</support_level>
+</member>
+<member name="res_chan_stats" displayname="Example of how to use Stasis" remove_on_change="res/res_chan_stats.o res/res_chan_stats.i res/res_chan_stats.so">
+	<depend>res_statsd</depend>
+	<defaultenabled>no</defaultenabled>
+	<support_level>extended</support_level>
+</member>
+<member name="res_clialiases" displayname="CLI Aliases" remove_on_change="res/res_clialiases.o res/res_clialiases.i res/res_clialiases.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_clioriginate" displayname="Call origination and redirection from the CLI" remove_on_change="res/res_clioriginate.o res/res_clioriginate.i res/res_clioriginate.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_config_curl" displayname="Realtime Curl configuration" remove_on_change="res/res_config_curl.o res/res_config_curl.i res/res_config_curl.so">
+	<depend>func_curl</depend>
+	<depend>res_curl</depend>
+	<depend>curl</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_config_ldap" displayname="LDAP realtime interface" remove_on_change="res/res_config_ldap.o res/res_config_ldap.i res/res_config_ldap.so">
+	<depend>ldap</depend>
+	<support_level>extended</support_level>
+</member>
+<member name="res_config_odbc" displayname="Realtime ODBC configuration" remove_on_change="res/res_config_odbc.o res/res_config_odbc.i res/res_config_odbc.so">
+	<depend>res_odbc</depend>
+	<depend>generic_odbc</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_config_pgsql" displayname="PostgreSQL RealTime Configuration Driver" remove_on_change="res/res_config_pgsql.o res/res_config_pgsql.i res/res_config_pgsql.so">
+	<depend>pgsql</depend>
+	<support_level>extended</support_level>
+</member>
+<member name="res_config_sqlite" displayname="Realtime SQLite configuration" remove_on_change="res/res_config_sqlite.o res/res_config_sqlite.i res/res_config_sqlite.so">
+	<depend>sqlite</depend>
+	<support_level>deprecated</support_level>
+	<deprecated_in>16</deprecated_in>
+	<removed_in>19</removed_in>
+</member>
+<member name="res_config_sqlite3" displayname="SQLite 3 realtime config engine" remove_on_change="res/res_config_sqlite3.o res/res_config_sqlite3.i res/res_config_sqlite3.so">
+	<depend>sqlite3</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_convert" displayname="File format conversion CLI command" remove_on_change="res/res_convert.o res/res_convert.i res/res_convert.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_corosync" displayname="Corosync" remove_on_change="res/res_corosync.o res/res_corosync.i res/res_corosync.so">
+	<depend>corosync</depend>
+	<defaultenabled>no</defaultenabled>
+	<support_level>extended</support_level>
+</member>
+<member name="res_crypto" displayname="Cryptographic Digital Signatures" remove_on_change="res/res_crypto.o res/res_crypto.i res/res_crypto.so">
+	<depend>openssl</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_curl" displayname="cURL Resource Module" remove_on_change="res/res_curl.o res/res_curl.i res/res_curl.so">
+	<depend>curl</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_endpoint_stats" displayname="Endpoint statistics" remove_on_change="res/res_endpoint_stats.o res/res_endpoint_stats.i res/res_endpoint_stats.so">
+	<depend>res_statsd</depend>
+	<defaultenabled>no</defaultenabled>
+	<support_level>extended</support_level>
+</member>
+<member name="res_fax" displayname="Generic FAX Applications" remove_on_change="res/res_fax.o res/res_fax.i res/res_fax.so">
+	<conflict>app_fax</conflict>
+	<support_level>core</support_level>
+</member>
+<member name="res_fax_spandsp" displayname="Spandsp G.711 and T.38 FAX Technologies" remove_on_change="res/res_fax_spandsp.o res/res_fax_spandsp.i res/res_fax_spandsp.so">
+	<depend>spandsp</depend>
+	<depend>res_fax</depend>
+	<support_level>extended</support_level>
+</member>
+<member name="res_format_attr_celt" displayname="CELT Format Attribute Module" remove_on_change="res/res_format_attr_celt.o res/res_format_attr_celt.i res/res_format_attr_celt.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_format_attr_g729" displayname="G.729 Format Attribute Module" remove_on_change="res/res_format_attr_g729.o res/res_format_attr_g729.i res/res_format_attr_g729.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_format_attr_h263" displayname="H.263 Format Attribute Module" remove_on_change="res/res_format_attr_h263.o res/res_format_attr_h263.i res/res_format_attr_h263.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_format_attr_h264" displayname="H.264 Format Attribute Module" remove_on_change="res/res_format_attr_h264.o res/res_format_attr_h264.i res/res_format_attr_h264.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_format_attr_ilbc" displayname="iLBC Format Attribute Module" remove_on_change="res/res_format_attr_ilbc.o res/res_format_attr_ilbc.i res/res_format_attr_ilbc.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_format_attr_opus" displayname="Opus Format Attribute Module" remove_on_change="res/res_format_attr_opus.o res/res_format_attr_opus.i res/res_format_attr_opus.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_format_attr_silk" displayname="SILK Format Attribute Module" remove_on_change="res/res_format_attr_silk.o res/res_format_attr_silk.i res/res_format_attr_silk.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_format_attr_siren14" displayname="Siren14 Format Attribute Module" remove_on_change="res/res_format_attr_siren14.o res/res_format_attr_siren14.i res/res_format_attr_siren14.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_format_attr_siren7" displayname="Siren7 Format Attribute Module" remove_on_change="res/res_format_attr_siren7.o res/res_format_attr_siren7.i res/res_format_attr_siren7.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_format_attr_vp8" displayname="VP8 Format Attribute Module" remove_on_change="res/res_format_attr_vp8.o res/res_format_attr_vp8.i res/res_format_attr_vp8.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_hep" displayname="HEPv3 API" remove_on_change="res/res_hep.o res/res_hep.i res/res_hep.so">
+	<support_level>extended</support_level>
+</member>
+<member name="res_hep_pjsip" displayname="PJSIP HEPv3 Logger" remove_on_change="res/res_hep_pjsip.o res/res_hep_pjsip.i res/res_hep_pjsip.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_session</depend>
+	<depend>res_hep</depend>
+	<support_level>extended</support_level>
+</member>
+<member name="res_hep_rtcp" displayname="RTCP HEPv3 Logger" remove_on_change="res/res_hep_rtcp.o res/res_hep_rtcp.i res/res_hep_rtcp.so">
+	<depend>res_hep</depend>
+	<support_level>extended</support_level>
+</member>
+<member name="res_http_media_cache" displayname="HTTP Media Cache Backend" remove_on_change="res/res_http_media_cache.o res/res_http_media_cache.i res/res_http_media_cache.so">
+	<depend>curl</depend>
+	<depend>res_curl</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_http_post" displayname="HTTP POST support" remove_on_change="res/res_http_post.o res/res_http_post.i res/res_http_post.so">
+	<depend>gmime</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_http_websocket" displayname="HTTP WebSocket Support" remove_on_change="res/res_http_websocket.o res/res_http_websocket.i res/res_http_websocket.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_limit" displayname="Resource limits" remove_on_change="res/res_limit.o res/res_limit.i res/res_limit.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_manager_devicestate" displayname="Manager Device State Topic Forwarder" remove_on_change="res/res_manager_devicestate.o res/res_manager_devicestate.i res/res_manager_devicestate.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_manager_presencestate" displayname="Manager Presence State Topic Forwarder" remove_on_change="res/res_manager_presencestate.o res/res_manager_presencestate.i res/res_manager_presencestate.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_monitor" displayname="Call Monitoring Resource" remove_on_change="res/res_monitor.o res/res_monitor.i res/res_monitor.so">
+	<use type="module">func_periodic_hook</use>
+	<support_level>deprecated</support_level>
+	<replacement>app_mixmonitor</replacement>
+	<deprecated_in>16</deprecated_in>
+	<removed_in>21</removed_in>
+</member>
+<member name="res_musiconhold" displayname="Music On Hold Resource" remove_on_change="res/res_musiconhold.o res/res_musiconhold.i res/res_musiconhold.so">
+	<conflict>win32</conflict>
+	<support_level>core</support_level>
+</member>
+<member name="res_mutestream" displayname="Mute audio stream resources" remove_on_change="res/res_mutestream.o res/res_mutestream.i res/res_mutestream.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_mwi_devstate" displayname="MWI Device State Subscriptions" remove_on_change="res/res_mwi_devstate.o res/res_mwi_devstate.i res/res_mwi_devstate.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_mwi_external" displayname="Core external MWI resource" remove_on_change="res/res_mwi_external.o res/res_mwi_external.i res/res_mwi_external.so">
+	<defaultenabled>no</defaultenabled>
+	<support_level>core</support_level>
+</member>
+<member name="res_mwi_external_ami" displayname="AMI support for external MWI" remove_on_change="res/res_mwi_external_ami.o res/res_mwi_external_ami.i res/res_mwi_external_ami.so">
+	<depend>res_mwi_external</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_odbc" displayname="ODBC resource" remove_on_change="res/res_odbc.o res/res_odbc.i res/res_odbc.so">
+	<depend>generic_odbc</depend>
+	<depend>res_odbc_transaction</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_odbc_transaction" displayname="ODBC transaction resource" remove_on_change="res/res_odbc_transaction.o res/res_odbc_transaction.i res/res_odbc_transaction.so">
+	<depend>generic_odbc</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_parking" displayname="Call Parking Resource" remove_on_change="res/res_parking.o res/res_parking.i res/res_parking.so res/parking/parking_applications.o res/parking/parking_bridge.o res/parking/parking_bridge_features.o res/parking/parking_controller.o res/parking/parking_devicestate.o res/parking/parking_manager.o res/parking/parking_tests.o res/parking/parking_ui.o res/parking/parking_applications.i res/parking/parking_bridge.i res/parking/parking_bridge_features.i res/parking/parking_controller.i res/parking/parking_devicestate.i res/parking/parking_manager.i res/parking/parking_tests.i res/parking/parking_ui.i">
+	<depend>bridge_holding</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_phoneprov" displayname="HTTP Phone Provisioning" remove_on_change="res/res_phoneprov.o res/res_phoneprov.i res/res_phoneprov.so">
+	<support_level>extended</support_level>
+</member>
+<member name="res_pjproject" displayname="PJPROJECT Log and Utility Support" remove_on_change="res/res_pjproject.o res/res_pjproject.i res/res_pjproject.so">
+	<depend>pjproject</depend>
+	<depend>res_sorcery_config</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip" displayname="Basic SIP resource" remove_on_change="res/res_pjsip.o res/res_pjsip.i res/res_pjsip.so res/res_pjsip/config_auth.o res/res_pjsip/config_domain_aliases.o res/res_pjsip/config_global.o res/res_pjsip/config_system.o res/res_pjsip/config_transport.o res/res_pjsip/location.o res/res_pjsip/pjsip_cli.o res/res_pjsip/pjsip_configuration.o res/res_pjsip/pjsip_distributor.o res/res_pjsip/pjsip_global_headers.o res/res_pjsip/pjsip_message_filter.o res/res_pjsip/pjsip_options.o res/res_pjsip/pjsip_resolver.o res/res_pjsip/pjsip_scheduler.o res/res_pjsip/pjsip_session.o res/res_pjsip/pjsip_transport_events.o res/res_pjsip/pjsip_transport_management.o res/res_pjsip/presence_xml.o res/res_pjsip/security_events.o res/res_pjsip/config_auth.i res/res_pjsip/config_domain_aliases.i res/res_pjsip/config_global.i res/res_pjsip/config_system.i res/res_pjsip/config_transport.i res/res_pjsip/location.i res/res_pjsip/pjsip_cli.i res/res_pjsip/pjsip_configuration.i res/res_pjsip/pjsip_distributor.i res/res_pjsip/pjsip_global_headers.i res/res_pjsip/pjsip_message_filter.i res/res_pjsip/pjsip_options.i res/res_pjsip/pjsip_resolver.i res/res_pjsip/pjsip_scheduler.i res/res_pjsip/pjsip_session.i res/res_pjsip/pjsip_transport_events.i res/res_pjsip/pjsip_transport_management.i res/res_pjsip/presence_xml.i res/res_pjsip/security_events.i">
+	<depend>pjproject</depend>
+	<depend>res_pjproject</depend>
+	<depend>res_sorcery_config</depend>
+	<depend>res_sorcery_memory</depend>
+	<depend>res_sorcery_astdb</depend>
+	<use type="module">res_statsd</use>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_acl" displayname="PJSIP ACL Resource" remove_on_change="res/res_pjsip_acl.o res/res_pjsip_acl.i res/res_pjsip_acl.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_authenticator_digest" displayname="PJSIP authentication resource" remove_on_change="res/res_pjsip_authenticator_digest.o res/res_pjsip_authenticator_digest.i res/res_pjsip_authenticator_digest.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_caller_id" displayname="PJSIP Caller ID Support" remove_on_change="res/res_pjsip_caller_id.o res/res_pjsip_caller_id.i res/res_pjsip_caller_id.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_session</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_config_wizard" displayname="PJSIP Config Wizard" remove_on_change="res/res_pjsip_config_wizard.o res/res_pjsip_config_wizard.i res/res_pjsip_config_wizard.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_dialog_info_body_generator" displayname="PJSIP Extension State Dialog Info+XML Provider" remove_on_change="res/res_pjsip_dialog_info_body_generator.o res/res_pjsip_dialog_info_body_generator.i res/res_pjsip_dialog_info_body_generator.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_pubsub</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_diversion" displayname="PJSIP Add Diversion Header Support" remove_on_change="res/res_pjsip_diversion.o res/res_pjsip_diversion.i res/res_pjsip_diversion.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_session</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_dlg_options" displayname="SIP OPTIONS in dialog handler" remove_on_change="res/res_pjsip_dlg_options.o res/res_pjsip_dlg_options.i res/res_pjsip_dlg_options.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_session</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_dtmf_info" displayname="PJSIP DTMF INFO Support" remove_on_change="res/res_pjsip_dtmf_info.o res/res_pjsip_dtmf_info.i res/res_pjsip_dtmf_info.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_session</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_empty_info" displayname="PJSIP Empty INFO Support" remove_on_change="res/res_pjsip_empty_info.o res/res_pjsip_empty_info.i res/res_pjsip_empty_info.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_session</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_endpoint_identifier_anonymous" displayname="PJSIP Anonymous endpoint identifier" remove_on_change="res/res_pjsip_endpoint_identifier_anonymous.o res/res_pjsip_endpoint_identifier_anonymous.i res/res_pjsip_endpoint_identifier_anonymous.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_endpoint_identifier_ip" displayname="PJSIP IP endpoint identifier" remove_on_change="res/res_pjsip_endpoint_identifier_ip.o res/res_pjsip_endpoint_identifier_ip.i res/res_pjsip_endpoint_identifier_ip.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_endpoint_identifier_user" displayname="PJSIP username endpoint identifier" remove_on_change="res/res_pjsip_endpoint_identifier_user.o res/res_pjsip_endpoint_identifier_user.i res/res_pjsip_endpoint_identifier_user.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_exten_state" displayname="PJSIP Extension State Notifications" remove_on_change="res/res_pjsip_exten_state.o res/res_pjsip_exten_state.i res/res_pjsip_exten_state.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_pubsub</depend>
+	<depend>res_pjsip_outbound_publish</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_header_funcs" displayname="PJSIP Header Functions" remove_on_change="res/res_pjsip_header_funcs.o res/res_pjsip_header_funcs.i res/res_pjsip_header_funcs.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_session</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_history" displayname="PJSIP History" remove_on_change="res/res_pjsip_history.o res/res_pjsip_history.i res/res_pjsip_history.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>extended</support_level>
+</member>
+<member name="res_pjsip_logger" displayname="PJSIP Packet Logger" remove_on_change="res/res_pjsip_logger.o res/res_pjsip_logger.i res/res_pjsip_logger.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<defaultenabled>yes</defaultenabled>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_messaging" displayname="PJSIP Messaging Support" remove_on_change="res/res_pjsip_messaging.o res/res_pjsip_messaging.i res/res_pjsip_messaging.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_session</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_mwi" displayname="PJSIP MWI resource" remove_on_change="res/res_pjsip_mwi.o res/res_pjsip_mwi.i res/res_pjsip_mwi.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_pubsub</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_mwi_body_generator" displayname="PJSIP MWI resource" remove_on_change="res/res_pjsip_mwi_body_generator.o res/res_pjsip_mwi_body_generator.i res/res_pjsip_mwi_body_generator.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_pubsub</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_nat" displayname="PJSIP NAT Support" remove_on_change="res/res_pjsip_nat.o res/res_pjsip_nat.i res/res_pjsip_nat.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_session</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_notify" displayname="CLI/AMI PJSIP NOTIFY Support" remove_on_change="res/res_pjsip_notify.o res/res_pjsip_notify.i res/res_pjsip_notify.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_one_touch_record_info" displayname="PJSIP INFO One Touch Recording Support" remove_on_change="res/res_pjsip_one_touch_record_info.o res/res_pjsip_one_touch_record_info.i res/res_pjsip_one_touch_record_info.so">
+	 <depend>pjproject</depend>
+	 <depend>res_pjsip</depend>
+	 <depend>res_pjsip_session</depend>
+	 <support_level>core</support_level>
+</member>
+<member name="res_pjsip_outbound_authenticator_digest" displayname="PJSIP authentication resource" remove_on_change="res/res_pjsip_outbound_authenticator_digest.o res/res_pjsip_outbound_authenticator_digest.i res/res_pjsip_outbound_authenticator_digest.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_outbound_publish" displayname="PJSIP Outbound Publish Support" remove_on_change="res/res_pjsip_outbound_publish.o res/res_pjsip_outbound_publish.i res/res_pjsip_outbound_publish.so">
+	<depend>pjproject</depend>
+	<depend>res_pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_outbound_registration" displayname="PJSIP Outbound Registration Support" remove_on_change="res/res_pjsip_outbound_registration.o res/res_pjsip_outbound_registration.i res/res_pjsip_outbound_registration.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<use type="module">res_statsd</use>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_path" displayname="PJSIP Path Header Support" remove_on_change="res/res_pjsip_path.o res/res_pjsip_path.i res/res_pjsip_path.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_session</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_phoneprov_provider" displayname="PJSIP Phoneprov Provider" remove_on_change="res/res_pjsip_phoneprov_provider.o res/res_pjsip_phoneprov_provider.i res/res_pjsip_phoneprov_provider.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_phoneprov</depend>
+	<support_level>extended</support_level>
+</member>
+<member name="res_pjsip_pidf_body_generator" displayname="PJSIP Extension State PIDF Provider" remove_on_change="res/res_pjsip_pidf_body_generator.o res/res_pjsip_pidf_body_generator.i res/res_pjsip_pidf_body_generator.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_pubsub</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_pidf_digium_body_supplement" displayname="PJSIP PIDF Sangoma presence supplement" remove_on_change="res/res_pjsip_pidf_digium_body_supplement.o res/res_pjsip_pidf_digium_body_supplement.i res/res_pjsip_pidf_digium_body_supplement.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_pubsub</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_pidf_eyebeam_body_supplement" displayname="PJSIP PIDF Eyebeam supplement" remove_on_change="res/res_pjsip_pidf_eyebeam_body_supplement.o res/res_pjsip_pidf_eyebeam_body_supplement.i res/res_pjsip_pidf_eyebeam_body_supplement.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_pubsub</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_publish_asterisk" displayname="PJSIP Asterisk Event PUBLISH Support" remove_on_change="res/res_pjsip_publish_asterisk.o res/res_pjsip_publish_asterisk.i res/res_pjsip_publish_asterisk.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_outbound_publish</depend>
+	<depend>res_pjsip_pubsub</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_pubsub" displayname="PJSIP event resource" remove_on_change="res/res_pjsip_pubsub.o res/res_pjsip_pubsub.i res/res_pjsip_pubsub.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_refer" displayname="PJSIP Blind and Attended Transfer Support" remove_on_change="res/res_pjsip_refer.o res/res_pjsip_refer.i res/res_pjsip_refer.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_session</depend>
+	<depend>res_pjsip_pubsub</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_registrar" displayname="PJSIP Registrar Support" remove_on_change="res/res_pjsip_registrar.o res/res_pjsip_registrar.i res/res_pjsip_registrar.so">
+	<depend>pjproject</depend>
+	<depend>res_pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_rfc3326" displayname="PJSIP RFC3326 Support" remove_on_change="res/res_pjsip_rfc3326.o res/res_pjsip_rfc3326.i res/res_pjsip_rfc3326.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_session</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_sdp_rtp" displayname="PJSIP SDP RTP/AVP stream handler" remove_on_change="res/res_pjsip_sdp_rtp.o res/res_pjsip_sdp_rtp.i res/res_pjsip_sdp_rtp.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_session</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_send_to_voicemail" displayname="PJSIP REFER Send to Voicemail Support" remove_on_change="res/res_pjsip_send_to_voicemail.o res/res_pjsip_send_to_voicemail.i res/res_pjsip_send_to_voicemail.so">
+	 <depend>pjproject</depend>
+	 <depend>res_pjsip</depend>
+	 <depend>res_pjsip_session</depend>
+	 <support_level>core</support_level>
+</member>
+<member name="res_pjsip_session" displayname="PJSIP Session resource" remove_on_change="res/res_pjsip_session.o res/res_pjsip_session.i res/res_pjsip_session.so res/res_pjsip_session/pjsip_session_caps.o res/res_pjsip_session/pjsip_session_caps.i">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_sips_contact" displayname="UAC SIPS Contact support" remove_on_change="res/res_pjsip_sips_contact.o res/res_pjsip_sips_contact.i res/res_pjsip_sips_contact.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_stir_shaken" displayname="PJSIP STIR/SHAKEN Module for Asterisk" remove_on_change="res/res_pjsip_stir_shaken.o res/res_pjsip_stir_shaken.i res/res_pjsip_stir_shaken.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_session</depend>
+	<depend>res_stir_shaken</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_t38" displayname="PJSIP T.38 UDPTL Support" remove_on_change="res/res_pjsip_t38.o res/res_pjsip_t38.i res/res_pjsip_t38.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_session</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_transport_websocket" displayname="PJSIP WebSocket Transport Support" remove_on_change="res/res_pjsip_transport_websocket.o res/res_pjsip_transport_websocket.i res/res_pjsip_transport_websocket.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_http_websocket</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pjsip_xpidf_body_generator" displayname="PJSIP Extension State PIDF Provider" remove_on_change="res/res_pjsip_xpidf_body_generator.o res/res_pjsip_xpidf_body_generator.i res/res_pjsip_xpidf_body_generator.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_pubsub</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_pktccops" displayname="PktcCOPS manager for MGCP" remove_on_change="res/res_pktccops.o res/res_pktccops.i res/res_pktccops.so">
+        <defaultenabled>no</defaultenabled>
+	<support_level>extended</support_level>
+	<deprecated_in>19</deprecated_in>
+	<removed_in>21</removed_in>
+</member>
+<member name="res_prometheus" displayname="Asterisk Prometheus Module" remove_on_change="res/res_prometheus.o res/res_prometheus.i res/res_prometheus.so res/prometheus/bridges.o res/prometheus/channels.o res/prometheus/cli.o res/prometheus/endpoints.o res/prometheus/pjsip_outbound_registrations.o res/prometheus/bridges.i res/prometheus/channels.i res/prometheus/cli.i res/prometheus/endpoints.i res/prometheus/pjsip_outbound_registrations.i">
+	<use>pjproject</use>
+	<use type="module">res_pjsip</use>
+	<use type="module">res_pjsip_outbound_registration</use>
+	<support_level>extended</support_level>
+</member>
+<member name="res_realtime" displayname="Realtime Data Lookup/Rewrite" remove_on_change="res/res_realtime.o res/res_realtime.i res/res_realtime.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_remb_modifier" displayname="REMB Modifier Module" remove_on_change="res/res_remb_modifier.o res/res_remb_modifier.i res/res_remb_modifier.so">
+	<defaultenabled>no</defaultenabled>
+	<support_level>extended</support_level>
+</member>
+<member name="res_resolver_unbound" displayname="Unbound DNS Resolver Support" remove_on_change="res/res_resolver_unbound.o res/res_resolver_unbound.i res/res_resolver_unbound.so">
+	<depend>unbound</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_rtp_asterisk" displayname="Asterisk RTP Stack" remove_on_change="res/res_rtp_asterisk.o res/res_rtp_asterisk.i res/res_rtp_asterisk.so">
+	<use type="external">openssl</use>
+	<use type="external">pjproject</use>
+	<support_level>core</support_level>
+</member>
+<member name="res_rtp_multicast" displayname="Multicast RTP Engine" remove_on_change="res/res_rtp_multicast.o res/res_rtp_multicast.i res/res_rtp_multicast.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_security_log" displayname="Security Event Logging" remove_on_change="res/res_security_log.o res/res_security_log.i res/res_security_log.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_smdi" displayname="Simplified Message Desk Interface (SMDI) Resource" remove_on_change="res/res_smdi.o res/res_smdi.i res/res_smdi.so">
+	<support_level>extended</support_level>
+</member>
+<member name="res_snmp" displayname="SNMP [Sub]Agent for Asterisk" remove_on_change="res/res_snmp.o res/res_snmp.i res/res_snmp.so res/snmp/agent.o res/snmp/agent.i">
+	<depend>netsnmp</depend>
+	<support_level>extended</support_level>
+</member>
+<member name="res_sorcery_astdb" displayname="Sorcery Astdb Object Wizard" remove_on_change="res/res_sorcery_astdb.o res/res_sorcery_astdb.i res/res_sorcery_astdb.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_sorcery_config" displayname="Sorcery Configuration File Object Wizard" remove_on_change="res/res_sorcery_config.o res/res_sorcery_config.i res/res_sorcery_config.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_sorcery_memory" displayname="Sorcery In-Memory Object Wizard" remove_on_change="res/res_sorcery_memory.o res/res_sorcery_memory.i res/res_sorcery_memory.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_sorcery_memory_cache" displayname="Sorcery Memory Cache Object Wizard" remove_on_change="res/res_sorcery_memory_cache.o res/res_sorcery_memory_cache.i res/res_sorcery_memory_cache.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_sorcery_realtime" displayname="Sorcery Realtime Object Wizard" remove_on_change="res/res_sorcery_realtime.o res/res_sorcery_realtime.i res/res_sorcery_realtime.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_speech" displayname="Generic Speech Recognition API" remove_on_change="res/res_speech.o res/res_speech.i res/res_speech.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_speech_aeap" displayname="Asterisk External Application Speech Engine" remove_on_change="res/res_speech_aeap.o res/res_speech_aeap.i res/res_speech_aeap.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_srtp" displayname="Secure RTP (SRTP)" remove_on_change="res/res_srtp.o res/res_srtp.i res/res_srtp.so">
+	<depend>srtp</depend>
+	<use type="external">openssl</use>
+	<support_level>core</support_level>
+</member>
+<member name="res_stasis" displayname="Stasis application support" remove_on_change="res/res_stasis.o res/res_stasis.i res/res_stasis.so res/stasis/app.o res/stasis/command.o res/stasis/control.o res/stasis/messaging.o res/stasis/stasis_bridge.o res/stasis/app.i res/stasis/command.i res/stasis/control.i res/stasis/messaging.i res/stasis/stasis_bridge.i">
+	<support_level>core</support_level>
+</member>
+<member name="res_stasis_answer" displayname="Stasis application answer support" remove_on_change="res/res_stasis_answer.o res/res_stasis_answer.i res/res_stasis_answer.so">
+	<depend type="module">res_stasis</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_stasis_device_state" displayname="Stasis application device state support" remove_on_change="res/res_stasis_device_state.o res/res_stasis_device_state.i res/res_stasis_device_state.so">
+	<depend type="module">res_stasis</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_stasis_mailbox" displayname="Stasis application mailbox support" remove_on_change="res/res_stasis_mailbox.o res/res_stasis_mailbox.i res/res_stasis_mailbox.so">
+	<depend type="module">res_stasis</depend>
+	<depend type="module">res_mwi_external</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_stasis_playback" displayname="Stasis application playback support" remove_on_change="res/res_stasis_playback.o res/res_stasis_playback.i res/res_stasis_playback.so">
+	<depend type="module">res_stasis</depend>
+	<depend type="module">res_stasis_recording</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_stasis_recording" displayname="Stasis application recording support" remove_on_change="res/res_stasis_recording.o res/res_stasis_recording.i res/res_stasis_recording.so res/stasis_recording/stored.o res/stasis_recording/stored.i">
+	<depend type="module">res_stasis</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_stasis_snoop" displayname="Stasis application snoop support" remove_on_change="res/res_stasis_snoop.o res/res_stasis_snoop.i res/res_stasis_snoop.so">
+	<depend type="module">res_stasis</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_stasis_test" displayname="Stasis test utilities" remove_on_change="res/res_stasis_test.o res/res_stasis_test.i res/res_stasis_test.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_statsd" displayname="StatsD client support" remove_on_change="res/res_statsd.o res/res_statsd.i res/res_statsd.so">
+	<support_level>extended</support_level>
+</member>
+<member name="res_stir_shaken" displayname="STIR/SHAKEN Module for Asterisk" remove_on_change="res/res_stir_shaken.o res/res_stir_shaken.i res/res_stir_shaken.so res/res_stir_shaken/certificate.o res/res_stir_shaken/curl.o res/res_stir_shaken/general.o res/res_stir_shaken/profile.o res/res_stir_shaken/stir_shaken.o res/res_stir_shaken/store.o res/res_stir_shaken/certificate.i res/res_stir_shaken/curl.i res/res_stir_shaken/general.i res/res_stir_shaken/profile.i res/res_stir_shaken/stir_shaken.i res/res_stir_shaken/store.i">
+	<depend>crypto</depend>
+	<depend>curl</depend>
+	<depend>res_curl</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_stun_monitor" displayname="STUN Network Monitor" remove_on_change="res/res_stun_monitor.o res/res_stun_monitor.i res/res_stun_monitor.so">
+	<support_level>core</support_level>
+</member>
+<member name="res_timing_dahdi" displayname="DAHDI Timing Interface" remove_on_change="res/res_timing_dahdi.o res/res_timing_dahdi.i res/res_timing_dahdi.so">
+	<depend>dahdi</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_timing_kqueue" displayname="KQueue Timing Interface" remove_on_change="res/res_timing_kqueue.o res/res_timing_kqueue.i res/res_timing_kqueue.so">
+	<depend>kqueue</depend>
+	<conflict>launchd</conflict>
+	<support_level>extended</support_level>
+</member>
+<member name="res_timing_pthread" displayname="pthread Timing Interface" remove_on_change="res/res_timing_pthread.o res/res_timing_pthread.i res/res_timing_pthread.so">
+	<support_level>extended</support_level>
+</member>
+<member name="res_timing_timerfd" displayname="Timerfd Timing Interface" remove_on_change="res/res_timing_timerfd.o res/res_timing_timerfd.i res/res_timing_timerfd.so">
+	<depend>timerfd</depend>
+	<support_level>core</support_level>
+</member>
+<member name="res_tonedetect" displayname="Tone detection module" remove_on_change="res/res_tonedetect.o res/res_tonedetect.i res/res_tonedetect.so">
+	<support_level>extended</support_level>
+</member>
+<member name="res_xmpp" displayname="Asterisk XMPP Interface" remove_on_change="res/res_xmpp.o res/res_xmpp.i res/res_xmpp.so">
+	<depend>iksemel</depend>
+	<use type="external">openssl</use>
+	<support_level>core</support_level>
+</member>
+<member name="res_digium_phone" displayname="Download the Digium Phone Module for Asterisk.  See https://downloads.digium.com/pub/telephony/res_digium_phone/README.">
+	<support_level>external</support_level>
+	<conflict>no_binary_modules</conflict>
+	<depend>xmlstarlet</depend>
+	<depend>bash</depend>
+	<defaultenabled>no</defaultenabled>
+	<member_data>
+		<downloader>
+			<variants>
+				<variant tag="bundled" condition='[[ "$PJPROJECT_BUNDLED" = "yes" ]]'/>
+			</variants>
+		</downloader>
+	</member_data>
+</member>
+</category>

@@ -1,0 +1,6 @@
+<member name="res_pjsip_logger" displayname="PJSIP Packet Logger" remove_on_change="res/res_pjsip_logger.o res/res_pjsip_logger.i res/res_pjsip_logger.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<defaultenabled>yes</defaultenabled>
+	<support_level>core</support_level>
+</member>

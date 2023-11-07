@@ -1,0 +1,4 @@
+<member name="test_sorcery_memory_cache_thrash" displayname="Sorcery Cache Thrasing test module" remove_on_change="tests/test_sorcery_memory_cache_thrash.o tests/test_sorcery_memory_cache_thrash.i tests/test_sorcery_memory_cache_thrash.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

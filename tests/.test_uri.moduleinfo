@@ -1,0 +1,4 @@
+<member name="test_uri" displayname="URI test module" remove_on_change="tests/test_uri.o tests/test_uri.i tests/test_uri.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

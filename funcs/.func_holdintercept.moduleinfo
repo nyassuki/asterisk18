@@ -1,0 +1,3 @@
+<member name="func_holdintercept" displayname="Hold interception dialplan function" remove_on_change="funcs/func_holdintercept.o funcs/func_holdintercept.i funcs/func_holdintercept.so">
+	<support_level>core</support_level>
+</member>

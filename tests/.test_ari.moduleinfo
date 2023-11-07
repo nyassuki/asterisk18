@@ -1,0 +1,5 @@
+<member name="test_ari" displayname="ARI testing" remove_on_change="tests/test_ari.o tests/test_ari.i tests/test_ari.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>res_ari</depend>
+	<support_level>core</support_level>
+</member>

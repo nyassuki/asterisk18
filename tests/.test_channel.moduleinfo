@@ -1,0 +1,4 @@
+<member name="test_channel" displayname="Channel Unit Tests" remove_on_change="tests/test_channel.o tests/test_channel.i tests/test_channel.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

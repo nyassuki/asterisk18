@@ -1,0 +1,3 @@
+<member name="func_sayfiles" displayname="Say application files" remove_on_change="funcs/func_sayfiles.o funcs/func_sayfiles.i funcs/func_sayfiles.so">
+	<support_level>extended</support_level>
+</member>

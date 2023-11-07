@@ -1,0 +1,5 @@
+<member name="res_pjsip_sips_contact" displayname="UAC SIPS Contact support" remove_on_change="res/res_pjsip_sips_contact.o res/res_pjsip_sips_contact.i res/res_pjsip_sips_contact.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>

@@ -1,0 +1,9 @@
+<member name="chan_misdn" displayname="Channel driver for mISDN Support (BRI/PRI)" remove_on_change="channels/chan_misdn.o channels/chan_misdn.i channels/chan_misdn.so channels/misdn_config.o channels/misdn/isdn_lib.o channels/misdn/isdn_msg_parser.o channels/misdn_config.i channels/misdn/isdn_lib.i channels/misdn/isdn_msg_parser.i">
+	<depend>isdnnet</depend>
+	<depend>misdn</depend>
+	<depend>suppserv</depend>
+	<support_level>deprecated</support_level>
+	<replacement>chan_dahdi</replacement>
+	<deprecated_in>16</deprecated_in>
+	<removed_in>19</removed_in>
+</member>

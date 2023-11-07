@@ -1,0 +1,9 @@
+<member name="chan_dahdi" displayname="DAHDI Telephony" remove_on_change="channels/chan_dahdi.o channels/chan_dahdi.i channels/chan_dahdi.so channels/dahdi/bridge_native_dahdi.o channels/sig_analog.o channels/sig_pri.o channels/sig_ss7.o channels/dahdi/bridge_native_dahdi.i channels/sig_analog.i channels/sig_pri.i channels/sig_ss7.i">
+	<depend>dahdi</depend>
+	<depend>tonezone</depend>
+	<use type="module">res_smdi</use>
+	<use type="external">pri</use>
+	<use type="external">ss7</use>
+	<use type="external">openr2</use>
+	<support_level>core</support_level>
+</member>

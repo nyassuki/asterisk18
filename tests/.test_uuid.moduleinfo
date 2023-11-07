@@ -1,0 +1,4 @@
+<member name="test_uuid" displayname="UUID test module" remove_on_change="tests/test_uuid.o tests/test_uuid.i tests/test_uuid.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

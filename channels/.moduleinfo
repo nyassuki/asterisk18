@@ -1,0 +1,107 @@
+<category name="MENUSELECT_CHANNELS" displayname="Channel Drivers">
+<member name="chan_alsa" displayname="ALSA Console Channel Driver" remove_on_change="channels/chan_alsa.o channels/chan_alsa.i channels/chan_alsa.so">
+	<depend>alsa</depend>
+	<support_level>extended</support_level>
+	<deprecated_in>19</deprecated_in>
+	<removed_in>21</removed_in>
+</member>
+<member name="chan_audiosocket" displayname="AudioSocket Channel" remove_on_change="channels/chan_audiosocket.o channels/chan_audiosocket.i channels/chan_audiosocket.so">
+	<depend>res_audiosocket</depend>
+	<support_level>extended</support_level>
+</member>
+<member name="chan_bridge_media" displayname="Bridge Media Channel Driver" remove_on_change="channels/chan_bridge_media.o channels/chan_bridge_media.i channels/chan_bridge_media.so">
+	<support_level>core</support_level>
+</member>
+<member name="chan_console" displayname="Console Channel Driver" remove_on_change="channels/chan_console.o channels/chan_console.i channels/chan_console.so">
+	<depend>portaudio</depend>
+	<support_level>extended</support_level>
+</member>
+<member name="chan_dahdi" displayname="DAHDI Telephony" remove_on_change="channels/chan_dahdi.o channels/chan_dahdi.i channels/chan_dahdi.so channels/dahdi/bridge_native_dahdi.o channels/sig_analog.o channels/sig_pri.o channels/sig_ss7.o channels/dahdi/bridge_native_dahdi.i channels/sig_analog.i channels/sig_pri.i channels/sig_ss7.i">
+	<depend>dahdi</depend>
+	<depend>tonezone</depend>
+	<use type="module">res_smdi</use>
+	<use type="external">pri</use>
+	<use type="external">ss7</use>
+	<use type="external">openr2</use>
+	<support_level>core</support_level>
+</member>
+<member name="chan_iax2" displayname="Inter Asterisk eXchange (Ver 2)" remove_on_change="channels/chan_iax2.o channels/chan_iax2.i channels/chan_iax2.so channels/iax2/codec_pref.o channels/iax2/firmware.o channels/iax2/format_compatibility.o channels/iax2/netsock.o channels/iax2/parser.o channels/iax2/provision.o channels/iax2/codec_pref.i channels/iax2/firmware.i channels/iax2/format_compatibility.i channels/iax2/netsock.i channels/iax2/parser.i channels/iax2/provision.i">
+	<use type="module">res_crypto</use>
+	<use type="external">crypto</use>
+	<support_level>core</support_level>
+</member>
+<member name="chan_mgcp" displayname="Media Gateway Control Protocol (MGCP)" remove_on_change="channels/chan_mgcp.o channels/chan_mgcp.i channels/chan_mgcp.so">
+        <use type="module">res_pktccops</use>
+	<support_level>extended</support_level>
+	<deprecated_in>19</deprecated_in>
+	<removed_in>21</removed_in>
+</member>
+<member name="chan_misdn" displayname="Channel driver for mISDN Support (BRI/PRI)" remove_on_change="channels/chan_misdn.o channels/chan_misdn.i channels/chan_misdn.so channels/misdn_config.o channels/misdn/isdn_lib.o channels/misdn/isdn_msg_parser.o channels/misdn_config.i channels/misdn/isdn_lib.i channels/misdn/isdn_msg_parser.i">
+	<depend>isdnnet</depend>
+	<depend>misdn</depend>
+	<depend>suppserv</depend>
+	<support_level>deprecated</support_level>
+	<replacement>chan_dahdi</replacement>
+	<deprecated_in>16</deprecated_in>
+	<removed_in>19</removed_in>
+</member>
+<member name="chan_motif" displayname="Motif Jingle Channel Driver" remove_on_change="channels/chan_motif.o channels/chan_motif.i channels/chan_motif.so">
+	<depend>iksemel</depend>
+	<depend>res_xmpp</depend>
+	<use type="external">openssl</use>
+	<support_level>core</support_level>
+</member>
+<member name="chan_nbs" displayname="Network Broadcast Sound Support" remove_on_change="channels/chan_nbs.o channels/chan_nbs.i channels/chan_nbs.so">
+	<depend>nbs</depend>
+	<support_level>deprecated</support_level>
+	<deprecated_in>16</deprecated_in>
+	<removed_in>19</removed_in>
+</member>
+<member name="chan_oss" displayname="OSS Console Channel Driver" remove_on_change="channels/chan_oss.o channels/chan_oss.i channels/chan_oss.so channels/console_video.o channels/vgrabbers.o channels/console_board.o channels/console_video.i channels/vgrabbers.i channels/console_board.i">
+	<depend>oss</depend>
+	<support_level>deprecated</support_level>
+	<deprecated_in>16</deprecated_in>
+	<removed_in>19</removed_in>
+</member>
+<member name="chan_phone" displayname="Linux Telephony API Support" remove_on_change="channels/chan_phone.o channels/chan_phone.i channels/chan_phone.so">
+	<depend>ixjuser</depend>
+	<support_level>deprecated</support_level>
+	<deprecated_in>16</deprecated_in>
+	<removed_in>19</removed_in>
+</member>
+<member name="chan_pjsip" displayname="PJSIP Channel Driver" remove_on_change="channels/chan_pjsip.o channels/chan_pjsip.i channels/chan_pjsip.so channels/pjsip/cli_commands.o channels/pjsip/dialplan_functions.o channels/pjsip/cli_commands.i channels/pjsip/dialplan_functions.i">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_pubsub</depend>
+	<depend>res_pjsip_session</depend>
+	<support_level>core</support_level>
+</member>
+<member name="chan_rtp" displayname="RTP Media Channel" remove_on_change="channels/chan_rtp.o channels/chan_rtp.i channels/chan_rtp.so">
+	<depend>res_rtp_multicast</depend>
+	<support_level>core</support_level>
+</member>
+<member name="chan_sip" displayname="Session Initiation Protocol (SIP)" remove_on_change="channels/chan_sip.o channels/chan_sip.i channels/chan_sip.so channels/sip/config_parser.o channels/sip/dialplan_functions.o channels/sip/reqresp_parser.o channels/sip/route.o channels/sip/security_events.o channels/sip/utils.o channels/sip/config_parser.i channels/sip/dialplan_functions.i channels/sip/reqresp_parser.i channels/sip/route.i channels/sip/security_events.i channels/sip/utils.i">
+	<use type="module">res_crypto</use>
+	<use type="module">res_http_websocket</use>
+	<defaultenabled>no</defaultenabled>
+	<support_level>deprecated</support_level>
+	<replacement>chan_pjsip</replacement>
+	<deprecated_in>17</deprecated_in>
+	<removed_in>21</removed_in>
+</member>
+<member name="chan_skinny" displayname="Skinny Client Control Protocol (Skinny)" remove_on_change="channels/chan_skinny.o channels/chan_skinny.i channels/chan_skinny.so">
+	<support_level>extended</support_level>
+	<deprecated_in>19</deprecated_in>
+	<removed_in>21</removed_in>
+</member>
+<member name="chan_unistim" displayname="UNISTIM Protocol (USTM)" remove_on_change="channels/chan_unistim.o channels/chan_unistim.i channels/chan_unistim.so">
+	<support_level>extended</support_level>
+</member>
+<member name="chan_vpb" displayname="Voicetronix API driver" remove_on_change="channels/chan_vpb.oo channels/chan_vpb.ii channels/chan_vpb.so">
+	<depend>vpb</depend>
+	<defaultenabled>no</defaultenabled>
+	<support_level>deprecated</support_level>
+	<deprecated_in>16</deprecated_in>
+	<removed_in>19</removed_in>
+</member>
+</category>

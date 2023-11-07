@@ -1,0 +1,4 @@
+<member name="res_parking" displayname="Call Parking Resource" remove_on_change="res/res_parking.o res/res_parking.i res/res_parking.so res/parking/parking_applications.o res/parking/parking_bridge.o res/parking/parking_bridge_features.o res/parking/parking_controller.o res/parking/parking_devicestate.o res/parking/parking_manager.o res/parking/parking_tests.o res/parking/parking_ui.o res/parking/parking_applications.i res/parking/parking_bridge.i res/parking/parking_bridge_features.i res/parking/parking_controller.i res/parking/parking_devicestate.i res/parking/parking_manager.i res/parking/parking_tests.i res/parking/parking_ui.i">
+	<depend>bridge_holding</depend>
+	<support_level>core</support_level>
+</member>

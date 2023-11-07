@@ -1,0 +1,5 @@
+<member name="res_pjsip_session" displayname="PJSIP Session resource" remove_on_change="res/res_pjsip_session.o res/res_pjsip_session.i res/res_pjsip_session.so res/res_pjsip_session/pjsip_session_caps.o res/res_pjsip_session/pjsip_session_caps.i">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>

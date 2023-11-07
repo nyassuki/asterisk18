@@ -1,0 +1,5 @@
+<member name="format_ogg_speex" displayname="OGG/Speex audio" remove_on_change="formats/format_ogg_speex.o formats/format_ogg_speex.i formats/format_ogg_speex.so">
+	<depend>speex</depend>
+	<depend>ogg</depend>
+	<support_level>extended</support_level>
+</member>

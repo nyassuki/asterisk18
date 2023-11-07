@@ -1,0 +1,7 @@
+<member name="res_ari_events" displayname="RESTful API module - WebSocket resource" remove_on_change="res/res_ari_events.o res/res_ari_events.i res/res_ari_events.so res/ari/resource_events.o res/ari/resource_events.i">
+	<depend type="module">res_ari</depend>
+	<depend type="module">res_ari_model</depend>
+	<depend type="module">res_stasis</depend>
+	<depend type="module">res_http_websocket</depend>
+	<support_level>core</support_level>
+</member>

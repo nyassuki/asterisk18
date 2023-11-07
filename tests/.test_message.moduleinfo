@@ -1,0 +1,4 @@
+<member name="test_message" displayname="Out-of-call text message support" remove_on_change="tests/test_message.o tests/test_message.i tests/test_message.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

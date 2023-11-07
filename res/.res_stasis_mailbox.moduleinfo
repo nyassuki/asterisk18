@@ -1,0 +1,5 @@
+<member name="res_stasis_mailbox" displayname="Stasis application mailbox support" remove_on_change="res/res_stasis_mailbox.o res/res_stasis_mailbox.i res/res_stasis_mailbox.so">
+	<depend type="module">res_stasis</depend>
+	<depend type="module">res_mwi_external</depend>
+	<support_level>core</support_level>
+</member>

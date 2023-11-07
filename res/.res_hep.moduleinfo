@@ -1,0 +1,3 @@
+<member name="res_hep" displayname="HEPv3 API" remove_on_change="res/res_hep.o res/res_hep.i res/res_hep.so">
+	<support_level>extended</support_level>
+</member>

@@ -1,0 +1,6 @@
+<member name="test_res_pjsip_scheduler" displayname="res_pjsip scheduler test module" remove_on_change="tests/test_res_pjsip_scheduler.o tests/test_res_pjsip_scheduler.i tests/test_res_pjsip_scheduler.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>

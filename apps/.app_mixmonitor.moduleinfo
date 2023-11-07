@@ -1,0 +1,4 @@
+<member name="app_mixmonitor" displayname="Mixed Audio Monitoring Application" remove_on_change="apps/app_mixmonitor.o apps/app_mixmonitor.i apps/app_mixmonitor.so">
+	<use type="module">func_periodic_hook</use>
+	<support_level>core</support_level>
+</member>

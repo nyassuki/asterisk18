@@ -1,0 +1,5 @@
+<member name="chan_iax2" displayname="Inter Asterisk eXchange (Ver 2)" remove_on_change="channels/chan_iax2.o channels/chan_iax2.i channels/chan_iax2.so channels/iax2/codec_pref.o channels/iax2/firmware.o channels/iax2/format_compatibility.o channels/iax2/netsock.o channels/iax2/parser.o channels/iax2/provision.o channels/iax2/codec_pref.i channels/iax2/firmware.i channels/iax2/format_compatibility.i channels/iax2/netsock.i channels/iax2/parser.i channels/iax2/provision.i">
+	<use type="module">res_crypto</use>
+	<use type="external">crypto</use>
+	<support_level>core</support_level>
+</member>

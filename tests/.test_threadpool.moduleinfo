@@ -1,0 +1,4 @@
+<member name="test_threadpool" displayname="threadpool test module" remove_on_change="tests/test_threadpool.o tests/test_threadpool.i tests/test_threadpool.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

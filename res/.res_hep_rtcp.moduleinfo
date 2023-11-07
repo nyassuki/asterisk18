@@ -1,0 +1,4 @@
+<member name="res_hep_rtcp" displayname="RTCP HEPv3 Logger" remove_on_change="res/res_hep_rtcp.o res/res_hep_rtcp.i res/res_hep_rtcp.so">
+	<depend>res_hep</depend>
+	<support_level>extended</support_level>
+</member>

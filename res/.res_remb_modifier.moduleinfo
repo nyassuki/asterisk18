@@ -1,0 +1,4 @@
+<member name="res_remb_modifier" displayname="REMB Modifier Module" remove_on_change="res/res_remb_modifier.o res/res_remb_modifier.i res/res_remb_modifier.so">
+	<defaultenabled>no</defaultenabled>
+	<support_level>extended</support_level>
+</member>

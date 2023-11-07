@@ -1,0 +1,8 @@
+<member name="res_ari_bridges" displayname="RESTful API module - Bridge resources" remove_on_change="res/res_ari_bridges.o res/res_ari_bridges.i res/res_ari_bridges.so res/ari/resource_bridges.o res/ari/resource_bridges.i">
+	<depend type="module">res_ari</depend>
+	<depend type="module">res_ari_model</depend>
+	<depend type="module">res_stasis</depend>
+	<depend type="module">res_stasis_recording</depend>
+	<depend type="module">res_stasis_playback</depend>
+	<support_level>core</support_level>
+</member>

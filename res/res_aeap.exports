@@ -1,0 +1,7 @@
+{
+	global:
+		aeap_*;
+		ast_aeap_*;
+	local:
+		*;
+};

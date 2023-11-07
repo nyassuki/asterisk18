@@ -1,0 +1,5 @@
+<member name="test_aeap_speech" displayname="Asterisk External Application Protocol Speech test(s)" remove_on_change="tests/test_aeap_speech.o tests/test_aeap_speech.i tests/test_aeap_speech.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>res_aeap</depend>
+	<support_level>core</support_level>
+</member>

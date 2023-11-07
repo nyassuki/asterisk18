@@ -1,0 +1,33 @@
+<category name="MENUSELECT_CEL" displayname="Channel Event Logging">
+<member name="cel_beanstalkd" displayname="Beanstalkd CEL Backend" remove_on_change="cel/cel_beanstalkd.o cel/cel_beanstalkd.i cel/cel_beanstalkd.so">
+	<depend>beanstalk</depend>
+	<support_level>extended</support_level>
+</member>
+<member name="cel_custom" displayname="Customizable Comma Separated Values CEL Backend" remove_on_change="cel/cel_custom.o cel/cel_custom.i cel/cel_custom.so">
+	<support_level>core</support_level>
+</member>
+<member name="cel_manager" displayname="Asterisk Manager Interface CEL Backend" remove_on_change="cel/cel_manager.o cel/cel_manager.i cel/cel_manager.so">
+	<support_level>core</support_level>
+</member>
+<member name="cel_odbc" displayname="ODBC CEL backend" remove_on_change="cel/cel_odbc.o cel/cel_odbc.i cel/cel_odbc.so">
+	<depend>res_odbc</depend>
+	<depend>generic_odbc</depend>
+	<support_level>core</support_level>
+</member>
+<member name="cel_pgsql" displayname="PostgreSQL CEL Backend" remove_on_change="cel/cel_pgsql.o cel/cel_pgsql.i cel/cel_pgsql.so">
+	<depend>pgsql</depend>
+	<support_level>extended</support_level>
+</member>
+<member name="cel_radius" displayname="RADIUS CEL Backend" remove_on_change="cel/cel_radius.o cel/cel_radius.i cel/cel_radius.so">
+	<depend>radius</depend>
+	<support_level>extended</support_level>
+</member>
+<member name="cel_sqlite3_custom" displayname="SQLite3 Custom CEL Module" remove_on_change="cel/cel_sqlite3_custom.o cel/cel_sqlite3_custom.i cel/cel_sqlite3_custom.so">
+	<depend>sqlite3</depend>
+	<support_level>extended</support_level>
+</member>
+<member name="cel_tds" displayname="FreeTDS CEL Backend" remove_on_change="cel/cel_tds.o cel/cel_tds.i cel/cel_tds.so">
+	<depend>freetds</depend>
+	<support_level>extended</support_level>
+</member>
+</category>

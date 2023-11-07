@@ -1,0 +1,6 @@
+<member name="res_pjsip_dtmf_info" displayname="PJSIP DTMF INFO Support" remove_on_change="res/res_pjsip_dtmf_info.o res/res_pjsip_dtmf_info.i res/res_pjsip_dtmf_info.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_session</depend>
+	<support_level>core</support_level>
+</member>

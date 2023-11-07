@@ -1,0 +1,4 @@
+<member name="app_stasis" displayname="Stasis dialplan application" remove_on_change="apps/app_stasis.o apps/app_stasis.i apps/app_stasis.so">
+	<depend>res_stasis</depend>
+	<support_level>core</support_level>
+</member>

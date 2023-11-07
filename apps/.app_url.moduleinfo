@@ -1,0 +1,5 @@
+<member name="app_url" displayname="Send URL Applications" remove_on_change="apps/app_url.o apps/app_url.i apps/app_url.so">
+	<support_level>deprecated</support_level>
+	<deprecated_in>16</deprecated_in>
+	<removed_in>19</removed_in>
+</member>

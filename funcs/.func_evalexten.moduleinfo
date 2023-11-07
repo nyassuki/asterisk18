@@ -1,0 +1,3 @@
+<member name="func_evalexten" displayname="Extension evaluation function" remove_on_change="funcs/func_evalexten.o funcs/func_evalexten.i funcs/func_evalexten.so">
+	<support_level>extended</support_level>
+</member>

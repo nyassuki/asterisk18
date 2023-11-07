@@ -1,0 +1,36 @@
+<category name="MENUSELECT_ADDONS" displayname="Add-ons (See README-addons.txt)">
+<member name="app_mysql" displayname="Simple Mysql Interface" remove_on_change="addons/app_mysql.o addons/app_mysql.i addons/app_mysql.so">
+	<depend>mysqlclient</depend>
+	<defaultenabled>no</defaultenabled>
+	<support_level>deprecated</support_level>
+	<replacement>func_odbc</replacement>
+	<deprecated_in>1.8</deprecated_in>
+	<removed_in>19</removed_in>
+</member>
+<member name="cdr_mysql" displayname="MySQL CDR Backend" remove_on_change="addons/cdr_mysql.o addons/cdr_mysql.i addons/cdr_mysql.so">
+	<depend>mysqlclient</depend>
+	<defaultenabled>no</defaultenabled>
+	<support_level>deprecated</support_level>
+	<replacement>cdr_adaptive_odbc</replacement>
+	<deprecated_in>1.8</deprecated_in>
+	<removed_in>19</removed_in>
+</member>
+<member name="chan_mobile" displayname="Bluetooth Mobile Device Channel Driver" remove_on_change="addons/chan_mobile.o addons/chan_mobile.i addons/chan_mobile.so">
+	<depend>bluetooth</depend>
+	<defaultenabled>no</defaultenabled>
+	<support_level>extended</support_level>
+</member>
+<member name="chan_ooh323" displayname="Objective Systems H323 Channel" remove_on_change="addons/chan_ooh323.o addons/chan_ooh323.i addons/chan_ooh323.so addons/ooh323c/src/ooCmdChannel.o addons/ooh323c/src/ooLogChan.o addons/ooh323c/src/ooUtils.o addons/ooh323c/src/ooGkClient.o addons/ooh323c/src/context.o addons/ooh323c/src/ooDateTime.o addons/ooh323c/src/decode.o addons/ooh323c/src/dlist.o addons/ooh323c/src/encode.o addons/ooh323c/src/errmgmt.o addons/ooh323c/src/memheap.o addons/ooh323c/src/ootrace.o addons/ooh323c/src/oochannels.o addons/ooh323c/src/ooh245.o addons/ooh323c/src/ooports.o addons/ooh323c/src/ooq931.o addons/ooh323c/src/ooCapability.o addons/ooh323c/src/ooSocket.o addons/ooh323c/src/perutil.o addons/ooh323c/src/eventHandler.o addons/ooh323c/src/ooCalls.o addons/ooh323c/src/ooStackCmds.o addons/ooh323c/src/ooh323.o addons/ooh323c/src/ooh323ep.o addons/ooh323c/src/printHandler.o addons/ooh323c/src/rtctype.o addons/ooh323c/src/ooTimer.o addons/ooh323c/src/h323/H235-SECURITY-MESSAGESDec.o addons/ooh323c/src/h323/H235-SECURITY-MESSAGESEnc.o addons/ooh323c/src/h323/H323-MESSAGES.o addons/ooh323c/src/h323/H323-MESSAGESDec.o addons/ooh323c/src/h323/H323-MESSAGESEnc.o addons/ooh323c/src/h323/MULTIMEDIA-SYSTEM-CONTROL.o addons/ooh323c/src/h323/MULTIMEDIA-SYSTEM-CONTROLDec.o addons/ooh323c/src/h323/MULTIMEDIA-SYSTEM-CONTROLEnc.o addons/ooh323cDriver.o addons/ooh323c/src/ooCmdChannel.i addons/ooh323c/src/ooLogChan.i addons/ooh323c/src/ooUtils.i addons/ooh323c/src/ooGkClient.i addons/ooh323c/src/context.i addons/ooh323c/src/ooDateTime.i addons/ooh323c/src/decode.i addons/ooh323c/src/dlist.i addons/ooh323c/src/encode.i addons/ooh323c/src/errmgmt.i addons/ooh323c/src/memheap.i addons/ooh323c/src/ootrace.i addons/ooh323c/src/oochannels.i addons/ooh323c/src/ooh245.i addons/ooh323c/src/ooports.i addons/ooh323c/src/ooq931.i addons/ooh323c/src/ooCapability.i addons/ooh323c/src/ooSocket.i addons/ooh323c/src/perutil.i addons/ooh323c/src/eventHandler.i addons/ooh323c/src/ooCalls.i addons/ooh323c/src/ooStackCmds.i addons/ooh323c/src/ooh323.i addons/ooh323c/src/ooh323ep.i addons/ooh323c/src/printHandler.i addons/ooh323c/src/rtctype.i addons/ooh323c/src/ooTimer.i addons/ooh323c/src/h323/H235-SECURITY-MESSAGESDec.i addons/ooh323c/src/h323/H235-SECURITY-MESSAGESEnc.i addons/ooh323c/src/h323/H323-MESSAGES.i addons/ooh323c/src/h323/H323-MESSAGESDec.i addons/ooh323c/src/h323/H323-MESSAGESEnc.i addons/ooh323c/src/h323/MULTIMEDIA-SYSTEM-CONTROL.i addons/ooh323c/src/h323/MULTIMEDIA-SYSTEM-CONTROLDec.i addons/ooh323c/src/h323/MULTIMEDIA-SYSTEM-CONTROLEnc.i addons/ooh323cDriver.i">
+	<defaultenabled>no</defaultenabled>
+	<support_level>extended</support_level>
+</member>
+<member name="format_mp3" displayname="MP3 format [Any rate but 8000hz mono is optimal]" remove_on_change="addons/format_mp3.o addons/format_mp3.i addons/format_mp3.so addons/mp3/common.o addons/mp3/dct64_i386.o addons/mp3/decode_ntom.o addons/mp3/layer3.o addons/mp3/tabinit.o addons/mp3/interface.o addons/mp3/common.i addons/mp3/dct64_i386.i addons/mp3/decode_ntom.i addons/mp3/layer3.i addons/mp3/tabinit.i addons/mp3/interface.i">
+	<defaultenabled>no</defaultenabled>
+	<support_level>extended</support_level>
+</member>
+<member name="res_config_mysql" displayname="MySQL RealTime Configuration Driver" remove_on_change="addons/res_config_mysql.o addons/res_config_mysql.i addons/res_config_mysql.so">
+	<depend>mysqlclient</depend>
+	<defaultenabled>no</defaultenabled>
+	<support_level>extended</support_level>
+</member>
+</category>

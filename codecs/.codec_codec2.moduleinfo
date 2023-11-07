@@ -1,0 +1,4 @@
+<member name="codec_codec2" displayname="Codec 2 Coder/Decoder" remove_on_change="codecs/codec_codec2.o codecs/codec_codec2.i codecs/codec_codec2.so">
+	<depend>codec2</depend>
+	<support_level>core</support_level>
+</member>

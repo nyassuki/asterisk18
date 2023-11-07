@@ -1,0 +1,6 @@
+<member name="chan_oss" displayname="OSS Console Channel Driver" remove_on_change="channels/chan_oss.o channels/chan_oss.i channels/chan_oss.so channels/console_video.o channels/vgrabbers.o channels/console_board.o channels/console_video.i channels/vgrabbers.i channels/console_board.i">
+	<depend>oss</depend>
+	<support_level>deprecated</support_level>
+	<deprecated_in>16</deprecated_in>
+	<removed_in>19</removed_in>
+</member>

@@ -1,0 +1,4 @@
+<member name="test_stasis_state" displayname="Stasis state testing" remove_on_change="tests/test_stasis_state.o tests/test_stasis_state.i tests/test_stasis_state.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

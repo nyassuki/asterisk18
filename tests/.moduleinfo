@@ -1,0 +1,401 @@
+<category name="MENUSELECT_TESTS" displayname="Test Modules">
+<member name="test_abstract_jb" displayname="Abstract JitterBuffer API Tests" remove_on_change="tests/test_abstract_jb.o tests/test_abstract_jb.i tests/test_abstract_jb.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_acl" displayname="ACL test module" remove_on_change="tests/test_acl.o tests/test_acl.i tests/test_acl.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_aeap" displayname="Asterisk External Application Protocol Object Tests" remove_on_change="tests/test_aeap.o tests/test_aeap.i tests/test_aeap.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>res_aeap</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_aeap_speech" displayname="Asterisk External Application Protocol Speech test(s)" remove_on_change="tests/test_aeap_speech.o tests/test_aeap_speech.i tests/test_aeap_speech.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>res_aeap</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_aeap_transaction" displayname="Asterisk External Application Protocol Transaction Tests" remove_on_change="tests/test_aeap_transaction.o tests/test_aeap_transaction.i tests/test_aeap_transaction.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>res_aeap</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_aeap_transport" displayname="Asterisk External Application Protocol Transport Tests" remove_on_change="tests/test_aeap_transport.o tests/test_aeap_transport.i tests/test_aeap_transport.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>res_aeap</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_amihooks" displayname="AMI Hook Test Module" remove_on_change="tests/test_amihooks.o tests/test_amihooks.i tests/test_amihooks.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_aoc" displayname="AOC unit tests" remove_on_change="tests/test_aoc.o tests/test_aoc.i tests/test_aoc.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_app" displayname="App unit tests" remove_on_change="tests/test_app.o tests/test_app.i tests/test_app.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_ari" displayname="ARI testing" remove_on_change="tests/test_ari.o tests/test_ari.i tests/test_ari.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>res_ari</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_ari_model" displayname="Skeleton (sample) Test" remove_on_change="tests/test_ari_model.o tests/test_ari_model.i tests/test_ari_model.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>res_ari_model</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_ast_format_str_reduce" displayname="ast_format_str_reduce() test module" remove_on_change="tests/test_ast_format_str_reduce.o tests/test_ast_format_str_reduce.i tests/test_ast_format_str_reduce.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>format_g723</depend>
+	<depend>format_g726</depend>
+	<depend>format_g729</depend>
+	<depend>format_gsm</depend>
+	<depend>format_ogg_vorbis</depend>
+	<depend>format_pcm</depend>
+	<depend>format_siren14</depend>
+	<depend>format_siren7</depend>
+	<depend>format_sln</depend>
+	<depend>format_wav</depend>
+	<depend>format_wav_gsm</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_astobj2" displayname="ASTOBJ2 Unit Tests" remove_on_change="tests/test_astobj2.o tests/test_astobj2.i tests/test_astobj2.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_astobj2_thrash" displayname="astobj2 container thrash test" remove_on_change="tests/test_astobj2_thrash.o tests/test_astobj2_thrash.i tests/test_astobj2_thrash.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_astobj2_weaken" displayname="ASTOBJ2 Weak Reference Unit Tests" remove_on_change="tests/test_astobj2_weaken.o tests/test_astobj2_weaken.i tests/test_astobj2_weaken.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_bridging" displayname="Bridging Unit Tests" remove_on_change="tests/test_bridging.o tests/test_bridging.i tests/test_bridging.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_bucket" displayname="Bucket test module" remove_on_change="tests/test_bucket.o tests/test_bucket.i tests/test_bucket.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_callerid" displayname="Callerid Parse Tests" remove_on_change="tests/test_callerid.o tests/test_callerid.i tests/test_callerid.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_cdr" displayname="CDR unit tests" remove_on_change="tests/test_cdr.o tests/test_cdr.i tests/test_cdr.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_cel" displayname="CEL unit tests" remove_on_change="tests/test_cel.o tests/test_cel.i tests/test_cel.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_channel" displayname="Channel Unit Tests" remove_on_change="tests/test_channel.o tests/test_channel.i tests/test_channel.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_channel_feature_hooks" displayname="Bridge Features Unit Tests" remove_on_change="tests/test_channel_feature_hooks.o tests/test_channel_feature_hooks.i tests/test_channel_feature_hooks.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_config" displayname="Config test module" remove_on_change="tests/test_config.o tests/test_config.i tests/test_config.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_conversions" displayname="Conversions test module" remove_on_change="tests/test_conversions.o tests/test_conversions.i tests/test_conversions.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_core_codec" displayname="Core codec API test module" remove_on_change="tests/test_core_codec.o tests/test_core_codec.i tests/test_core_codec.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_core_format" displayname="Core format API test module" remove_on_change="tests/test_core_format.o tests/test_core_format.i tests/test_core_format.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_data_buffer" displayname="Data buffer API test module" remove_on_change="tests/test_data_buffer.o tests/test_data_buffer.i tests/test_data_buffer.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_db" displayname="AstDB test module" remove_on_change="tests/test_db.o tests/test_db.i tests/test_db.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_devicestate" displayname="Device State Test" remove_on_change="tests/test_devicestate.o tests/test_devicestate.i tests/test_devicestate.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_dlinklists" displayname="Test Doubly-Linked Lists" remove_on_change="tests/test_dlinklists.o tests/test_dlinklists.i tests/test_dlinklists.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_dns" displayname="DNS API Tests" remove_on_change="tests/test_dns.o tests/test_dns.i tests/test_dns.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_dns_naptr" displayname="DNS API Tests" remove_on_change="tests/test_dns_naptr.o tests/test_dns_naptr.i tests/test_dns_naptr.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_dns_query_set" displayname="DNS query set tests" remove_on_change="tests/test_dns_query_set.o tests/test_dns_query_set.i tests/test_dns_query_set.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_dns_recurring" displayname="Recurring DNS query tests" remove_on_change="tests/test_dns_recurring.o tests/test_dns_recurring.i tests/test_dns_recurring.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_dns_srv" displayname="DNS SRV Tests" remove_on_change="tests/test_dns_srv.o tests/test_dns_srv.i tests/test_dns_srv.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_endpoints" displayname="Endpoint testing" remove_on_change="tests/test_endpoints.o tests/test_endpoints.i tests/test_endpoints.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_event" displayname="ast_event API Tests" remove_on_change="tests/test_event.o tests/test_event.i tests/test_event.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_expr" displayname="Expression evaluation tests" remove_on_change="tests/test_expr.o tests/test_expr.i tests/test_expr.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_file" displayname="File test module" remove_on_change="tests/test_file.o tests/test_file.i tests/test_file.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_format_cache" displayname="Format cache API test module" remove_on_change="tests/test_format_cache.o tests/test_format_cache.i tests/test_format_cache.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_format_cap" displayname="Format capabilities API test module" remove_on_change="tests/test_format_cap.o tests/test_format_cap.i tests/test_format_cap.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_func_file" displayname="FILE() Tests" remove_on_change="tests/test_func_file.o tests/test_func_file.i tests/test_func_file.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_gosub" displayname="Gosub Tests" remove_on_change="tests/test_gosub.o tests/test_gosub.i tests/test_gosub.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_hashtab_thrash" displayname="Hash test" remove_on_change="tests/test_hashtab_thrash.o tests/test_hashtab_thrash.i tests/test_hashtab_thrash.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_heap" displayname="Heap test module" remove_on_change="tests/test_heap.o tests/test_heap.i tests/test_heap.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_http_media_cache" displayname="HTTP Media Cache Backend Tests" remove_on_change="tests/test_http_media_cache.o tests/test_http_media_cache.i tests/test_http_media_cache.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>curl</depend>
+	<depend>res_http_media_cache</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_jitterbuf" displayname="Jitter Buffer Tests" remove_on_change="tests/test_jitterbuf.o tests/test_jitterbuf.i tests/test_jitterbuf.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_json" displayname="JSON testing" remove_on_change="tests/test_json.o tests/test_json.i tests/test_json.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_linkedlists" displayname="Test Linked Lists" remove_on_change="tests/test_linkedlists.o tests/test_linkedlists.i tests/test_linkedlists.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_locale" displayname="Locale tests" remove_on_change="tests/test_locale.o tests/test_locale.i tests/test_locale.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_logger" displayname="Logger Test Module" remove_on_change="tests/test_logger.o tests/test_logger.i tests/test_logger.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_media_cache" displayname="Media Cache Tests" remove_on_change="tests/test_media_cache.o tests/test_media_cache.i tests/test_media_cache.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_message" displayname="Out-of-call text message support" remove_on_change="tests/test_message.o tests/test_message.i tests/test_message.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_mwi" displayname="MWI testing" remove_on_change="tests/test_mwi.o tests/test_mwi.i tests/test_mwi.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_named_lock" displayname="Named Lock test module" remove_on_change="tests/test_named_lock.o tests/test_named_lock.i tests/test_named_lock.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_netsock2" displayname="Netsock2 test module" remove_on_change="tests/test_netsock2.o tests/test_netsock2.i tests/test_netsock2.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_optional_api" displayname="ARI testing" remove_on_change="tests/test_optional_api.o tests/test_optional_api.i tests/test_optional_api.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>OPTIONAL_API</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_pbx" displayname="PBX test module" remove_on_change="tests/test_pbx.o tests/test_pbx.i tests/test_pbx.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_poll" displayname="Poll test" remove_on_change="tests/test_poll.o tests/test_poll.i tests/test_poll.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_res_pjsip_scheduler" displayname="res_pjsip scheduler test module" remove_on_change="tests/test_res_pjsip_scheduler.o tests/test_res_pjsip_scheduler.i tests/test_res_pjsip_scheduler.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_res_pjsip_session_caps" displayname="res_pjsip_session caps test module" remove_on_change="tests/test_res_pjsip_session_caps.o tests/test_res_pjsip_session_caps.i tests/test_res_pjsip_session_caps.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_session</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_res_prometheus" displayname="Prometheus Core Unit Tests" remove_on_change="tests/test_res_prometheus.o tests/test_res_prometheus.i tests/test_res_prometheus.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>res_prometheus</depend>
+	<depend>curl</depend>
+	<support_level>extended</support_level>
+</member>
+<member name="test_res_rtp" displayname="RTP/RTCP test module" remove_on_change="tests/test_res_rtp.o tests/test_res_rtp.i tests/test_res_rtp.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_res_stasis" displayname="Stasis Core testing" remove_on_change="tests/test_res_stasis.o tests/test_res_stasis.i tests/test_res_stasis.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>res_stasis</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_sched" displayname="ast_sched performance test module" remove_on_change="tests/test_sched.o tests/test_sched.i tests/test_sched.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_scope_trace" displayname="Scope Trace Test" remove_on_change="tests/test_scope_trace.o tests/test_scope_trace.i tests/test_scope_trace.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_scoped_lock" displayname="SCOPED_LOCK test module" remove_on_change="tests/test_scoped_lock.o tests/test_scoped_lock.i tests/test_scoped_lock.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_security_events" displayname="Test Security Event Generation" remove_on_change="tests/test_security_events.o tests/test_security_events.i tests/test_security_events.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_skel" displayname="Skeleton (sample) Test" remove_on_change="tests/test_skel.o tests/test_skel.i tests/test_skel.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_sorcery" displayname="Sorcery test module" remove_on_change="tests/test_sorcery.o tests/test_sorcery.i tests/test_sorcery.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>func_sorcery</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_sorcery_astdb" displayname="Sorcery astdb Wizard test module" remove_on_change="tests/test_sorcery_astdb.o tests/test_sorcery_astdb.i tests/test_sorcery_astdb.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_sorcery_memory_cache_thrash" displayname="Sorcery Cache Thrasing test module" remove_on_change="tests/test_sorcery_memory_cache_thrash.o tests/test_sorcery_memory_cache_thrash.i tests/test_sorcery_memory_cache_thrash.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_sorcery_realtime" displayname="Sorcery Realtime Wizard test module" remove_on_change="tests/test_sorcery_realtime.o tests/test_sorcery_realtime.i tests/test_sorcery_realtime.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_stasis" displayname="Stasis testing" remove_on_change="tests/test_stasis.o tests/test_stasis.i tests/test_stasis.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_stasis_channels" displayname="Stasis Channel Testing" remove_on_change="tests/test_stasis_channels.o tests/test_stasis_channels.i tests/test_stasis_channels.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_stasis_endpoints" displayname="Endpoint stasis-related testing" remove_on_change="tests/test_stasis_endpoints.o tests/test_stasis_endpoints.i tests/test_stasis_endpoints.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>res_stasis_test</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_stasis_state" displayname="Stasis state testing" remove_on_change="tests/test_stasis_state.o tests/test_stasis_state.i tests/test_stasis_state.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_stream" displayname="Media Stream API test module" remove_on_change="tests/test_stream.o tests/test_stream.i tests/test_stream.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_stringfields" displayname="String Fields Test" remove_on_change="tests/test_stringfields.o tests/test_stringfields.i tests/test_stringfields.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_strings" displayname="Dynamic string test module" remove_on_change="tests/test_strings.o tests/test_strings.i tests/test_strings.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_substitution" displayname="Substitution tests" remove_on_change="tests/test_substitution.o tests/test_substitution.i tests/test_substitution.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>func_curl</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_taskprocessor" displayname="taskprocessor test module" remove_on_change="tests/test_taskprocessor.o tests/test_taskprocessor.i tests/test_taskprocessor.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_threadpool" displayname="threadpool test module" remove_on_change="tests/test_threadpool.o tests/test_threadpool.i tests/test_threadpool.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_time" displayname="Time Tests" remove_on_change="tests/test_time.o tests/test_time.i tests/test_time.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_uri" displayname="URI test module" remove_on_change="tests/test_uri.o tests/test_uri.i tests/test_uri.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_utils" displayname="Utils test module" remove_on_change="tests/test_utils.o tests/test_utils.i tests/test_utils.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>res_agi</depend>
+	<depend>res_crypto</depend>
+	<depend>crypto</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_uuid" displayname="UUID test module" remove_on_change="tests/test_uuid.o tests/test_uuid.i tests/test_uuid.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_vector" displayname="Vector test module" remove_on_change="tests/test_vector.o tests/test_vector.i tests/test_vector.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_voicemail_api" displayname="Core Voicemail API Tests" remove_on_change="tests/test_voicemail_api.o tests/test_voicemail_api.i tests/test_voicemail_api.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_websocket_client" displayname="Websocket client test module" remove_on_change="tests/test_websocket_client.o tests/test_websocket_client.i tests/test_websocket_client.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>res_http_websocket</depend>
+	<support_level>core</support_level>
+</member>
+<member name="test_xml_escape" displayname="Skeleton (sample) Test" remove_on_change="tests/test_xml_escape.o tests/test_xml_escape.i tests/test_xml_escape.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>
+</category>

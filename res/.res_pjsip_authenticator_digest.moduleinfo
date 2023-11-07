@@ -1,0 +1,5 @@
+<member name="res_pjsip_authenticator_digest" displayname="PJSIP authentication resource" remove_on_change="res/res_pjsip_authenticator_digest.o res/res_pjsip_authenticator_digest.i res/res_pjsip_authenticator_digest.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>

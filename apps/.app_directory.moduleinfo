@@ -1,0 +1,3 @@
+<member name="app_directory" displayname="Extension Directory" remove_on_change="apps/app_directory.o apps/app_directory.i apps/app_directory.so">
+	<support_level>core</support_level>
+</member>

@@ -1,0 +1,4 @@
+<member name="test_channel_feature_hooks" displayname="Bridge Features Unit Tests" remove_on_change="tests/test_channel_feature_hooks.o tests/test_channel_feature_hooks.i tests/test_channel_feature_hooks.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

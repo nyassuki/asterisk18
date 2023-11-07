@@ -1,0 +1,4 @@
+<member name="cdr_beanstalkd" displayname="Asterisk Beanstalkd CDR Backend" remove_on_change="cdr/cdr_beanstalkd.o cdr/cdr_beanstalkd.i cdr/cdr_beanstalkd.so">
+	<depend>beanstalk</depend>
+	<support_level>extended</support_level>
+</member>

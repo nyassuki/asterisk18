@@ -1,0 +1,193 @@
+<category name="MENUSELECT_FUNCS" displayname="Dialplan Functions">
+<member name="func_aes" displayname="AES dialplan functions" remove_on_change="funcs/func_aes.o funcs/func_aes.i funcs/func_aes.so">
+	<depend>res_crypto</depend>
+	<depend>crypto</depend>
+	<support_level>core</support_level>
+</member>
+<member name="func_base64" displayname="base64 encode/decode dialplan functions" remove_on_change="funcs/func_base64.o funcs/func_base64.i funcs/func_base64.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_blacklist" displayname="Look up Caller*ID name/number from blacklist database" remove_on_change="funcs/func_blacklist.o funcs/func_blacklist.i funcs/func_blacklist.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_callcompletion" displayname="Call Control Configuration Function" remove_on_change="funcs/func_callcompletion.o funcs/func_callcompletion.i funcs/func_callcompletion.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_callerid" displayname="Party ID related dialplan functions (Caller-ID, Connected-line, Redirecting)" remove_on_change="funcs/func_callerid.o funcs/func_callerid.i funcs/func_callerid.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_cdr" displayname="Call Detail Record (CDR) dialplan functions" remove_on_change="funcs/func_cdr.o funcs/func_cdr.i funcs/func_cdr.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_channel" displayname="Channel information dialplan functions" remove_on_change="funcs/func_channel.o funcs/func_channel.i funcs/func_channel.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_config" displayname="Asterisk configuration file variable access" remove_on_change="funcs/func_config.o funcs/func_config.i funcs/func_config.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_curl" displayname="Load external URL" remove_on_change="funcs/func_curl.o funcs/func_curl.i funcs/func_curl.so">
+	<depend>res_curl</depend>
+	<depend>curl</depend>
+	<support_level>core</support_level>
+</member>
+<member name="func_cut" displayname="Cut out information from a string" remove_on_change="funcs/func_cut.o funcs/func_cut.i funcs/func_cut.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_db" displayname="Database (astdb) related dialplan functions" remove_on_change="funcs/func_db.o funcs/func_db.i funcs/func_db.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_devstate" displayname="Gets or sets a device state in the dialplan" remove_on_change="funcs/func_devstate.o funcs/func_devstate.i funcs/func_devstate.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_dialgroup" displayname="Dialgroup dialplan function" remove_on_change="funcs/func_dialgroup.o funcs/func_dialgroup.i funcs/func_dialgroup.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_dialplan" displayname="Dialplan Context/Extension/Priority Checking Functions" remove_on_change="funcs/func_dialplan.o funcs/func_dialplan.i funcs/func_dialplan.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_enum" displayname="ENUM related dialplan functions" remove_on_change="funcs/func_enum.o funcs/func_enum.i funcs/func_enum.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_env" displayname="Environment/filesystem dialplan functions" remove_on_change="funcs/func_env.o funcs/func_env.i funcs/func_env.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_evalexten" displayname="Extension evaluation function" remove_on_change="funcs/func_evalexten.o funcs/func_evalexten.i funcs/func_evalexten.so">
+	<support_level>extended</support_level>
+</member>
+<member name="func_extstate" displayname="Gets an extension's state in the dialplan" remove_on_change="funcs/func_extstate.o funcs/func_extstate.i funcs/func_extstate.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_frame_drop" displayname="Function to drop frames on a channel." remove_on_change="funcs/func_frame_drop.o funcs/func_frame_drop.i funcs/func_frame_drop.so">
+	<support_level>extended</support_level>
+</member>
+<member name="func_frame_trace" displayname="Frame Trace for internal ast_frame debugging." remove_on_change="funcs/func_frame_trace.o funcs/func_frame_trace.i funcs/func_frame_trace.so">
+	<support_level>extended</support_level>
+</member>
+<member name="func_global" displayname="Variable dialplan functions" remove_on_change="funcs/func_global.o funcs/func_global.i funcs/func_global.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_groupcount" displayname="Channel group dialplan functions" remove_on_change="funcs/func_groupcount.o funcs/func_groupcount.i funcs/func_groupcount.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_hangupcause" displayname="HANGUPCAUSE related functions and applications" remove_on_change="funcs/func_hangupcause.o funcs/func_hangupcause.i funcs/func_hangupcause.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_holdintercept" displayname="Hold interception dialplan function" remove_on_change="funcs/func_holdintercept.o funcs/func_holdintercept.i funcs/func_holdintercept.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_iconv" displayname="Charset conversions" remove_on_change="funcs/func_iconv.o funcs/func_iconv.i funcs/func_iconv.so">
+	<depend>iconv</depend>
+	<support_level>core</support_level>
+</member>
+<member name="func_jitterbuffer" displayname="Jitter buffer for read side of channel." remove_on_change="funcs/func_jitterbuffer.o funcs/func_jitterbuffer.i funcs/func_jitterbuffer.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_json" displayname="JSON decoding function" remove_on_change="funcs/func_json.o funcs/func_json.i funcs/func_json.so">
+	<support_level>extended</support_level>
+</member>
+<member name="func_lock" displayname="Dialplan mutexes" remove_on_change="funcs/func_lock.o funcs/func_lock.i funcs/func_lock.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_logic" displayname="Logical dialplan functions" remove_on_change="funcs/func_logic.o funcs/func_logic.i funcs/func_logic.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_math" displayname="Mathematical dialplan function" remove_on_change="funcs/func_math.o funcs/func_math.i funcs/func_math.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_md5" displayname="MD5 digest dialplan functions" remove_on_change="funcs/func_md5.o funcs/func_md5.i funcs/func_md5.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_module" displayname="Checks if Asterisk module is loaded in memory" remove_on_change="funcs/func_module.o funcs/func_module.i funcs/func_module.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_odbc" displayname="ODBC lookups" remove_on_change="funcs/func_odbc.o funcs/func_odbc.i funcs/func_odbc.so">
+	<depend>res_odbc</depend>
+	<depend>generic_odbc</depend>
+	<support_level>core</support_level>
+</member>
+<member name="func_periodic_hook" displayname="Periodic dialplan hooks." remove_on_change="funcs/func_periodic_hook.o funcs/func_periodic_hook.i funcs/func_periodic_hook.so">
+	<depend>app_chanspy</depend>
+	<depend>func_cut</depend>
+	<depend>func_groupcount</depend>
+	<depend>func_uri</depend>
+	<support_level>core</support_level>
+</member>
+<member name="func_pitchshift" displayname="Audio Effects Dialplan Functions" remove_on_change="funcs/func_pitchshift.o funcs/func_pitchshift.i funcs/func_pitchshift.so">
+	<support_level>extended</support_level>
+</member>
+<member name="func_pjsip_aor" displayname="Get information about a PJSIP AOR" remove_on_change="funcs/func_pjsip_aor.o funcs/func_pjsip_aor.i funcs/func_pjsip_aor.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>
+<member name="func_pjsip_contact" displayname="Get information about a PJSIP contact" remove_on_change="funcs/func_pjsip_contact.o funcs/func_pjsip_contact.i funcs/func_pjsip_contact.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>
+<member name="func_pjsip_endpoint" displayname="Get information about a PJSIP endpoint" remove_on_change="funcs/func_pjsip_endpoint.o funcs/func_pjsip_endpoint.i funcs/func_pjsip_endpoint.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<support_level>core</support_level>
+</member>
+<member name="func_presencestate" displayname="Gets or sets a presence state in the dialplan" remove_on_change="funcs/func_presencestate.o funcs/func_presencestate.i funcs/func_presencestate.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_rand" displayname="Random number dialplan function" remove_on_change="funcs/func_rand.o funcs/func_rand.i funcs/func_rand.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_realtime" displayname="Read/Write/Store/Destroy values from a RealTime repository" remove_on_change="funcs/func_realtime.o funcs/func_realtime.i funcs/func_realtime.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_sayfiles" displayname="Say application files" remove_on_change="funcs/func_sayfiles.o funcs/func_sayfiles.i funcs/func_sayfiles.so">
+	<support_level>extended</support_level>
+</member>
+<member name="func_scramble" displayname="Frequency inverting voice scrambler" remove_on_change="funcs/func_scramble.o funcs/func_scramble.i funcs/func_scramble.so">
+	<support_level>extended</support_level>
+</member>
+<member name="func_sha1" displayname="SHA-1 computation dialplan function" remove_on_change="funcs/func_sha1.o funcs/func_sha1.i funcs/func_sha1.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_shell" displayname="Collects the output generated by a command executed by the system shell" remove_on_change="funcs/func_shell.o funcs/func_shell.i funcs/func_shell.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_sorcery" displayname="Get a field from a sorcery object" remove_on_change="funcs/func_sorcery.o funcs/func_sorcery.i funcs/func_sorcery.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_speex" displayname="Noise reduction and Automatic Gain Control (AGC)" remove_on_change="funcs/func_speex.o funcs/func_speex.i funcs/func_speex.so">
+	<depend>speex</depend>
+	<depend>speex_preprocess</depend>
+	<use type="external">speexdsp</use>
+	<support_level>core</support_level>
+</member>
+<member name="func_sprintf" displayname="SPRINTF dialplan function" remove_on_change="funcs/func_sprintf.o funcs/func_sprintf.i funcs/func_sprintf.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_srv" displayname="SRV related dialplan functions" remove_on_change="funcs/func_srv.o funcs/func_srv.i funcs/func_srv.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_strings" displayname="String handling dialplan functions" remove_on_change="funcs/func_strings.o funcs/func_strings.i funcs/func_strings.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_sysinfo" displayname="System information related functions" remove_on_change="funcs/func_sysinfo.o funcs/func_sysinfo.i funcs/func_sysinfo.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_talkdetect" displayname="Talk detection dialplan function" remove_on_change="funcs/func_talkdetect.o funcs/func_talkdetect.i funcs/func_talkdetect.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_timeout" displayname="Channel timeout dialplan functions" remove_on_change="funcs/func_timeout.o funcs/func_timeout.i funcs/func_timeout.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_uri" displayname="URI encode/decode dialplan functions" remove_on_change="funcs/func_uri.o funcs/func_uri.i funcs/func_uri.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_version" displayname="Get Asterisk Version/Build Info" remove_on_change="funcs/func_version.o funcs/func_version.i funcs/func_version.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_vmcount" displayname="Indicator for whether a voice mailbox has messages in a given folder." remove_on_change="funcs/func_vmcount.o funcs/func_vmcount.i funcs/func_vmcount.so">
+	<support_level>core</support_level>
+</member>
+<member name="func_volume" displayname="Technology independent volume control" remove_on_change="funcs/func_volume.o funcs/func_volume.i funcs/func_volume.so">
+	<support_level>core</support_level>
+</member>
+</category>

@@ -1,0 +1,7 @@
+<member name="res_ari_playbacks" displayname="RESTful API module - Playback control resources" remove_on_change="res/res_ari_playbacks.o res/res_ari_playbacks.i res/res_ari_playbacks.so res/ari/resource_playbacks.o res/ari/resource_playbacks.i">
+	<depend type="module">res_ari</depend>
+	<depend type="module">res_ari_model</depend>
+	<depend type="module">res_stasis</depend>
+	<depend type="module">res_stasis_playback</depend>
+	<support_level>core</support_level>
+</member>

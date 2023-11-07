@@ -1,0 +1,5 @@
+<member name="res_corosync" displayname="Corosync" remove_on_change="res/res_corosync.o res/res_corosync.i res/res_corosync.so">
+	<depend>corosync</depend>
+	<defaultenabled>no</defaultenabled>
+	<support_level>extended</support_level>
+</member>

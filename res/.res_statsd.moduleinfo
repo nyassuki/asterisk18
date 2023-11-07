@@ -1,0 +1,3 @@
+<member name="res_statsd" displayname="StatsD client support" remove_on_change="res/res_statsd.o res/res_statsd.i res/res_statsd.so">
+	<support_level>extended</support_level>
+</member>

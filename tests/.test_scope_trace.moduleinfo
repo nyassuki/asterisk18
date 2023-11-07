@@ -1,0 +1,4 @@
+<member name="test_scope_trace" displayname="Scope Trace Test" remove_on_change="tests/test_scope_trace.o tests/test_scope_trace.i tests/test_scope_trace.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

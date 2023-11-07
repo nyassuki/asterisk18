@@ -1,0 +1,4 @@
+<member name="test_file" displayname="File test module" remove_on_change="tests/test_file.o tests/test_file.i tests/test_file.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

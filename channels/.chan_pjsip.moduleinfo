@@ -1,0 +1,7 @@
+<member name="chan_pjsip" displayname="PJSIP Channel Driver" remove_on_change="channels/chan_pjsip.o channels/chan_pjsip.i channels/chan_pjsip.so channels/pjsip/cli_commands.o channels/pjsip/dialplan_functions.o channels/pjsip/cli_commands.i channels/pjsip/dialplan_functions.i">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_pubsub</depend>
+	<depend>res_pjsip_session</depend>
+	<support_level>core</support_level>
+</member>

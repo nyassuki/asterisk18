@@ -1,0 +1,4 @@
+<member name="app_bridgewait" displayname="Place the channel into a holding bridge application" remove_on_change="apps/app_bridgewait.o apps/app_bridgewait.i apps/app_bridgewait.so">
+	<depend>bridge_holding</depend>
+	<support_level>core</support_level>
+</member>

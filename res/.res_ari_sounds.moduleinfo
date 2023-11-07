@@ -1,0 +1,6 @@
+<member name="res_ari_sounds" displayname="RESTful API module - Sound resources" remove_on_change="res/res_ari_sounds.o res/res_ari_sounds.i res/res_ari_sounds.so res/ari/resource_sounds.o res/ari/resource_sounds.i">
+	<depend type="module">res_ari</depend>
+	<depend type="module">res_ari_model</depend>
+	<depend type="module">res_stasis</depend>
+	<support_level>core</support_level>
+</member>

@@ -1,0 +1,6 @@
+<member name="res_pjsip_t38" displayname="PJSIP T.38 UDPTL Support" remove_on_change="res/res_pjsip_t38.o res/res_pjsip_t38.i res/res_pjsip_t38.so">
+	<depend>pjproject</depend>
+	<depend>res_pjsip</depend>
+	<depend>res_pjsip_session</depend>
+	<support_level>core</support_level>
+</member>

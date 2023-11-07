@@ -1,0 +1,3 @@
+<member name="res_format_attr_opus" displayname="Opus Format Attribute Module" remove_on_change="res/res_format_attr_opus.o res/res_format_attr_opus.i res/res_format_attr_opus.so">
+	<support_level>core</support_level>
+</member>

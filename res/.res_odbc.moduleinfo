@@ -1,0 +1,5 @@
+<member name="res_odbc" displayname="ODBC resource" remove_on_change="res/res_odbc.o res/res_odbc.i res/res_odbc.so">
+	<depend>generic_odbc</depend>
+	<depend>res_odbc_transaction</depend>
+	<support_level>core</support_level>
+</member>

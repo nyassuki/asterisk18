@@ -1,0 +1,6 @@
+<member name="res_stir_shaken" displayname="STIR/SHAKEN Module for Asterisk" remove_on_change="res/res_stir_shaken.o res/res_stir_shaken.i res/res_stir_shaken.so res/res_stir_shaken/certificate.o res/res_stir_shaken/curl.o res/res_stir_shaken/general.o res/res_stir_shaken/profile.o res/res_stir_shaken/stir_shaken.o res/res_stir_shaken/store.o res/res_stir_shaken/certificate.i res/res_stir_shaken/curl.i res/res_stir_shaken/general.i res/res_stir_shaken/profile.i res/res_stir_shaken/stir_shaken.i res/res_stir_shaken/store.i">
+	<depend>crypto</depend>
+	<depend>curl</depend>
+	<depend>res_curl</depend>
+	<support_level>core</support_level>
+</member>

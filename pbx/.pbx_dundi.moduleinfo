@@ -1,0 +1,6 @@
+<member name="pbx_dundi" displayname="Distributed Universal Number Discovery (DUNDi)" remove_on_change="pbx/pbx_dundi.o pbx/pbx_dundi.i pbx/pbx_dundi.so pbx/dundi-parser.o pbx/dundi-parser.i">
+	<depend>zlib</depend>
+	<use type="module">res_crypto</use>
+	<use type="external">crypto</use>
+	<support_level>extended</support_level>
+</member>

@@ -1,0 +1,5 @@
+<member name="test_sorcery" displayname="Sorcery test module" remove_on_change="tests/test_sorcery.o tests/test_sorcery.i tests/test_sorcery.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<depend>func_sorcery</depend>
+	<support_level>core</support_level>
+</member>

@@ -1,0 +1,4 @@
+<member name="res_stasis_answer" displayname="Stasis application answer support" remove_on_change="res/res_stasis_answer.o res/res_stasis_answer.i res/res_stasis_answer.so">
+	<depend type="module">res_stasis</depend>
+	<support_level>core</support_level>
+</member>

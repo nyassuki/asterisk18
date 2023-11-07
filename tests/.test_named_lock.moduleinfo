@@ -1,0 +1,4 @@
+<member name="test_named_lock" displayname="Named Lock test module" remove_on_change="tests/test_named_lock.o tests/test_named_lock.i tests/test_named_lock.so">
+	<depend>TEST_FRAMEWORK</depend>
+	<support_level>core</support_level>
+</member>

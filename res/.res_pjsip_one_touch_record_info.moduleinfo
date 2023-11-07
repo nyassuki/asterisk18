@@ -1,0 +1,6 @@
+<member name="res_pjsip_one_touch_record_info" displayname="PJSIP INFO One Touch Recording Support" remove_on_change="res/res_pjsip_one_touch_record_info.o res/res_pjsip_one_touch_record_info.i res/res_pjsip_one_touch_record_info.so">
+	 <depend>pjproject</depend>
+	 <depend>res_pjsip</depend>
+	 <depend>res_pjsip_session</depend>
+	 <support_level>core</support_level>
+</member>

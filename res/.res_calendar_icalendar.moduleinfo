@@ -1,0 +1,6 @@
+<member name="res_calendar_icalendar" displayname="Asterisk iCalendar .ics file integration" remove_on_change="res/res_calendar_icalendar.o res/res_calendar_icalendar.i res/res_calendar_icalendar.so">
+	<depend>res_calendar</depend>
+	<depend>neon</depend>
+	<depend>ical</depend>
+	<support_level>extended</support_level>
+</member>

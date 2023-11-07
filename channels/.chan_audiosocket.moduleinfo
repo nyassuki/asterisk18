@@ -1,0 +1,4 @@
+<member name="chan_audiosocket" displayname="AudioSocket Channel" remove_on_change="channels/chan_audiosocket.o channels/chan_audiosocket.i channels/chan_audiosocket.so">
+	<depend>res_audiosocket</depend>
+	<support_level>extended</support_level>
+</member>
